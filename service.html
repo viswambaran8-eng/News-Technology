@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Technology</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./service.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily News Technologies</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index2.html">Home 2</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./service.html">Services</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="./dashboard.html">Dashboard</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index2.html">Home 2</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./about.html">About</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./service.html">Services</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./blog.html">Blog</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./contact.html">Contact Us</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="350">
+          <a href="./dashboard.html">Dashboard</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="400">
+          <a href="./login.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <section class="service-hero">
+      <div class="hero-shutter"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-flex">
+        <div class="hero-content">
+          <div class="badge">Innovation & Strategy</div>
+          <h1 class="hero-title">
+            Technology Services<br />
+            <span class="accent-text">& Digital Solutions</span>
+          </h1>
+          <p class="hero-subtext">
+            Navigating the intersection of medical precision and digital
+            innovation. We engineer solutions that redefine the technological
+            landscape.
+          </p>
+          <div class="hero-btns">
+            <a href="#services" class="btn-main">View Solutions</a>
+            <a href="./contact.html" class="btn-outline">Consultation</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="image-wrapper">
+            <img
+              src="./Assets/servicehero.avif"
+              alt="Advanced Technology"
+              class="hero-img"
+            />
+            <div class="experience-tag">
+              <span class="tag-num">12+</span>
+              <span class="tag-text">Years of <br />Expertise</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="consulting-section">
+      <div class="container">
+        <div class="header-box">
+          <span class="tag">Expert Guidance</span>
+          <h2>Technology Consulting</h2>
+        </div>
+        <div class="consulting-grid">
+          <div class="consulting-card">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+                alt="Data Analytics"
+              />
+            </div>
+            <h3>Infrastructure Audit</h3>
+            <p>
+              Deep-dive assessments into your current medical and media hardware
+              to identify critical bottlenecks.
+            </p>
+          </div>
+          <div class="consulting-card">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop"
+                alt="Workplace"
+              />
+            </div>
+            <h3>Digital Compliance</h3>
+            <p>
+              Aligning your technological output with global standards and
+              journalistic ethics protocols.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="strategy-section">
+      <div
+        class="strategy-parallax-bg"
+        style="
+          background-image: url(&quot;https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&quot;);
+        "
+      ></div>
+      <div class="container">
+        <div class="strategy-content">
+          <h2>Digital Strategy</h2>
+          <p>
+            We don't just plan for the next quarter; we architect the next
+            decade. Our strategies integrate AI-driven newsroom tools with
+            medical-grade data security.
+          </p>
+          <div class="stat-box">
+            <div class="stat">
+              <span>99.9%</span>
+              <p>Uptime Reliability</p>
+            </div>
+            <div class="stat">
+              <span>24/7</span>
+              <p>Global Monitoring</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="analysis-section">
+      <div class="container">
+        <div class="analysis-flex">
+          <div class="analysis-text">
+            <h2>Software Analysis</h2>
+            <p>
+              Granular code reviews and performance stress tests designed for
+              high-traffic technology news portals.
+            </p>
+          </div>
+          <div class="analysis-list">
+            <div class="analysis-item"><span>01</span> Quality Assurance</div>
+            <div class="analysis-item"><span>02</span> UX/UI Forensics</div>
+            <div class="analysis-item">
+              <span>03</span> Backend Optimization
+            </div>
+            <div class="analysis-item"><span>04</span> Scalability Testing</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="innovation-section">
+  <div class="container">
+    <div class="innovation-header">
+      <h2 class="gsap-reveal">Innovation Support</h2>
+      <p class="gsap-reveal">Empowering the next generation of medical and technology startups with the infrastructure and expertise needed to scale.</p>
+    </div>
+    
+    <div class="innovation-grid">
+      <div class="innov-card">
+        <div class="innov-icon">01</div>
+        <h3>R&D Acceleration</h3>
+        <p>Shorten the bridge between concept and clinic with our specialized medical device prototyping labs.</p>
+      </div>
+      <div class="innov-card">
+        <div class="innov-icon">02</div>
+        <h3>Scalable Architecture</h3>
+        <p>Global cloud solutions designed to handle the high-concurrency needs of breaking tech news portals.</p>
+      </div>
+      <div class="innov-card">
+        <div class="innov-icon">03</div>
+        <h3>AI Implementation</h3>
+        <p>Custom LLM training and integration for automated technical reporting and data verification.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="success-stories">
+  <div class="container">
+    <h2 class="gsap-reveal">Success Stories</h2>
+    
+    <div class="story-block">
+      <div class="story-image">
+        <img src="https://images.unsplash.com/photo-1573161158332-54440058c975?q=80&w=2070&auto=format&fit=crop" alt="Technology Hub" class="story-img-gsap">
+      </div>
+      <div class="story-content">
+        <div class="story-tag">Case Study: MedTech 2026</div>
+        <h3>Revolutionizing Post-Surgical Monitoring</h3>
+        <p>By integrating our custom software analysis protocols, a leading medical device firm reduced data latency by 40%, directly improving patient recovery tracking.</p>
+        <a href="#" class="btn-text">Read Full Report <span>→</span></a>
+      </div>
+    </div>
+
+    <div class="story-block reverse">
+      <div class="story-image">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop" alt="Newsroom" class="story-img-gsap">
+      </div>
+      <div class="story-content">
+        <div class="story-tag">Case Study: NewsWire Pro</div>
+        <h3>Scaling to 10M Concurrent Readers</h3>
+        <p>We architected a resilient digital strategy for a top-tier technology news portal, enabling seamless coverage during the largest product launches of the year.</p>
+        <a href="#" class="btn-text">Read Full Report <span>→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./about.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./contact.html">Contact Us</a>
+          <a href="./dashboard.html">Dashboard</a>
+          <a href="./login.html">Login</a>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./about.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./blog.html">Blog</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology news, trends, and
+            innovations.
+          </p>
+          <form action="./error.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Updates & Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error.html">Privacy Policy</a>
+          <a href="./error.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  // Register the ScrollTrigger plugin
+  gsap.registerPlugin(ScrollTrigger);
+
+  const heroTl = gsap.timeline();
+
+  // 1. Shutter Entrance
+  heroTl
+    .to(".hero-shutter", {
+      scaleY: 0,
+      duration: 1.2,
+      ease: "power4.inOut",
+    })
+
+    // 2. Content Reveal (Slide & Fade)
+    .from(
+      ".hero-content > *",
+      {
+        y: 50,
+        opacity: 1,
+        stagger: 0.15,
+        duration: 1,
+        ease: "power3.out",
+      },
+      "-=0.5",
+    )
+
+    // 3. Image Reveal
+    .from(
+      ".image-wrapper",
+      {
+        x: 100,
+        opacity: 1,
+        duration: 1.2,
+        ease: "expo.out",
+      },
+      "-=1",
+    )
+
+    // 4. Experience Tag Pop-in
+    .from(
+      ".experience-tag",
+      {
+        scale: 0,
+        rotation: -10,
+        duration: 0.8,
+        ease: "back.out(1.7)",
+      },
+      "-=0.4",
+    );
+
+  // Subtle Parallax for the Image on Scroll
+  gsap.to(".hero-img", {
+    scrollTrigger: {
+      trigger: ".service-hero",
+      start: "top top",
+      scrub: true,
+    },
+    ease: "none",
+  });
+</script>
+
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+
+// Animation 1: Consulting Cards Slide Up
+gsap.from(".consulting-card", {
+  scrollTrigger: {
+    trigger: ".consulting-grid",
+    start: "top 80%",
+  },
+  y: 100,
+  opacity: 1,
+  stagger: 0.3,
+  duration: 1,
+  ease: "power4.out"
+});
+
+// Animation 2: Strategy Background Parallax
+gsap.to(".strategy-parallax-bg", {
+  scrollTrigger: {
+    trigger: ".strategy-section",
+    scrub: true
+  },
+  y: -150,
+  ease: "none"
+});
+
+// Animation 3: Strategy Content Fade
+gsap.from(".strategy-content", {
+  scrollTrigger: {
+    trigger: ".strategy-content",
+    start: "top 75%",
+  },
+  x: -50,
+  opacity: 1,
+  duration: 1
+});
+
+// Animation 4: Analysis List Stagger
+gsap.from(".analysis-item", {
+  scrollTrigger: {
+    trigger: ".analysis-list",
+    start: "top 85%",
+  },
+  opacity: 1,
+  stagger: 0.15,
+  duration: 0.8,
+  ease: "power2.out"
+});
+</script>
+
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+
+// 1. Staggered Entrance for Innovation Cards
+gsap.from(".innov-card", {
+  scrollTrigger: {
+    trigger: ".innovation-grid",
+    start: "top 85%",
+  },
+  y: 60,
+  opacity: 1,
+  stagger: 0.2,
+  duration: 1,
+  ease: "power3.out"
+});
+
+// 2. Simple Scroll Reveal for Text Elements
+gsap.utils.toArray('.gsap-reveal').forEach(el => {
+  gsap.from(el, {
+    scrollTrigger: {
+      trigger: el,
+      start: "top 90%",
+    },
+    y: 30,
+    opacity: 1,
+    duration: 0.8
+  });
+});
+
+// 3. Parallax Effect for Story Images
+gsap.utils.toArray('.story-img-gsap').forEach(img => {
+  gsap.from(img, {
+    scrollTrigger: {
+      trigger: img,
+      start: "top bottom",
+      scrub: true
+    },
+    scale: 1.3,
+    y: 50
+  });
+});
+
+// 4. Border Animation for Success Blocks
+gsap.from(".story-content", {
+  scrollTrigger: {
+    trigger: ".story-block",
+    start: "top 70%",
+  },
+  opacity: 1,
+  x: 50,
+  stagger: 0.4,
+  duration: 1
+});
+</script>

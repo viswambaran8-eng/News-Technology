@@ -1,0 +1,812 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Technology</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./index2.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily News Technologies</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index2.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index2.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index.html">Home 1</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./categories.html">Categories</a></li>
+            <li><a href="./latest-news.html">Latest News</a></li>
+            <li><a href="./tech-reviews.html">Tech Reviews</a></li>
+            <li><a href="./innovations.html">Innovations</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login2.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index2.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index.html">Home 1</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./categories.html">Categories</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./latest-news.html">Latest News</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./tech-reviews.html">Tech Reviews</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./innovations.html">Innovations</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="350">
+          <a href="./login2.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <section class="home2-hero">
+      <div class="hero-shutter shutter-top"></div>
+      <div class="hero-shutter shutter-bottom"></div>
+
+      <div
+        class="hero-bg-visual"
+        style="
+          background-image: url(&quot;https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop&quot;);
+
+          background-position: 50% 50%;
+          background-size: cover;
+          background-repeat: no-repeat;
+        "
+      ></div>
+
+      <div class="container-hero">
+        <div class="hero-label-top gsap-reveal-fade">
+          Systems Intelligence Briefing // 2026
+        </div>
+
+        <div class="hero-main-frame">
+          <div class="status-badge gsap-reveal-fade">
+            <span class="pulse-ring"></span> DATA STREAM ACTIVE
+          </div>
+
+          <h1 class="hero-title-main gsap-reveal-slide">
+            Autonomous Health: <br />The Rise of
+            <span class="highlight-red">Neural News Nodes.</span>
+          </h1>
+
+          <p class="hero-description gsap-reveal-fade">
+            Global report on how decentralized medical networks are now
+            utilizing real-time autonomous reporting to secure patient data
+            against the next wave of cyber-threats.
+          </p>
+
+          <div class="hero-cta-group gsap-reveal-fade">
+            <a href="./error2.html" class="btn-solid-red"
+              >Download Intelligence</a
+            >
+            <a href="./error2.html" class="btn-glass">System Overview</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="top-stories-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-reveal-title">
+            Top <span class="text-red">Stories</span>
+          </h2>
+        </div>
+
+        <div class="stories-grid">
+          <article class="story-card large gsap-reveal-up">
+            <div class="story-img">
+              <img
+                src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop"
+                alt="AI Tech"
+              />
+              <span class="category-tag">Analysis</span>
+            </div>
+            <div class="story-info">
+              <h3>The Sovereign AI Revolution</h3>
+              <p>
+                Global infrastructure is shifting toward localized neural
+                networks to protect national data interests.
+              </p>
+              <a href="./error2.html" class="read-link">Full Access →</a>
+            </div>
+          </article>
+
+          <article class="story-card gsap-reveal-up">
+            <div class="story-img">
+              <img
+                src="https://images.unsplash.com/photo-1558494949-ef010cbdcc48?q=80&w=2074&auto=format&fit=crop"
+                alt="Cloud Security"
+              />
+            </div>
+            <div class="story-info">
+              <h3>Decentralized Data Centers</h3>
+              <p>
+                How the move away from centralized cloud storage is saving
+                medical institutions from ransomware.
+              </p>
+              <a href="./error2.html" class="read-link">Full Access →</a>
+            </div>
+          </article>
+
+          <article class="story-card gsap-reveal-up">
+            <div class="story-img">
+              <img
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop"
+                alt="Bio Tech"
+              />
+            </div>
+            <div class="story-info">
+              <h3>Neural Link Benchmarks</h3>
+              <p>
+                Latest performance specs for the 2026 bio-synchronization
+                hardware released today.
+              </p>
+              <a href="./error2.html" class="read-link">Full Access →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="trending-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-reveal-title">
+            Trending <span class="text-red">Technology</span>
+          </h2>
+        </div>
+
+        <div class="trending-grid">
+          <div class="trend-card gsap-reveal-left">
+            <div class="trend-icon">AI</div>
+            <h4>LLM-9 Update</h4>
+            <p>
+              New model architecture reduces latency by 40% in clinical
+              environments.
+            </p>
+          </div>
+          <div class="trend-card gsap-reveal-left">
+            <div class="trend-icon">GADGET</div>
+            <h4>Vision-X Glasses</h4>
+            <p>
+              The first augmented reality interface designed for neurosurgeons.
+            </p>
+          </div>
+          <div class="trend-card gsap-reveal-right">
+            <div class="trend-icon">SOFT</div>
+            <h4>OS-Core 12</h4>
+            <p>
+              A kernel-level rebuild focusing on quantum-resistant encryption.
+            </p>
+          </div>
+          <div class="trend-card gsap-reveal-right">
+            <div class="trend-icon">CYBER</div>
+            <h4>Firewall Pulse</h4>
+            <p>
+              New AI-driven defense identifies 0-day exploits in milliseconds.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="latest-news-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-news-reveal">
+            Latest Technology <span class="text-red">News</span>
+          </h2>
+        </div>
+
+        <div class="news-grid">
+          <article class="news-item gsap-news-item">
+            <div class="news-thumb">
+              <img
+                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop"
+                alt="Workstations"
+              />
+            </div>
+            <div class="news-body">
+              <span class="news-date">March 08, 2026</span>
+              <h3>Quantum Desktop Kits Released</h3>
+              <p>
+                The first localized quantum processing units for high-end
+                research are now available for clinical use.
+              </p>
+            </div>
+          </article>
+
+          <article class="news-item gsap-news-item">
+            <div class="news-thumb">
+              <img
+                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop"
+                alt="Workstations"
+              />
+            </div>
+            <div class="news-body">
+              <span class="news-date">March 08, 2026</span>
+              <h3>Quantum Desktop Kits Released</h3>
+              <p>
+                The first localized quantum processing units for high-end
+                research are now available for clinical use.
+              </p>
+            </div>
+          </article>
+
+          <article class="news-item gsap-news-item">
+            <div class="news-thumb">
+              <img
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop"
+                alt="Medical Sensors"
+              />
+            </div>
+            <div class="news-body">
+              <span class="news-date">March 07, 2026</span>
+              <h3>Bio-Sync 4.0 Trials Begin</h3>
+              <p>
+                A new era of patient monitoring starts as the Bio-Sync 4.0
+                wearables enter clinical phase III trials across the EU.
+              </p>
+            </div>
+          </article>
+
+          <article class="news-item gsap-news-item">
+            <div class="news-thumb">
+              <img
+                src="https://images.unsplash.com/photo-1558494949-ef010cbdcc48?q=80&w=2074&auto=format&fit=crop"
+                alt="Cloud Infrastructure"
+              />
+            </div>
+            <div class="news-body">
+              <span class="news-date">March 06, 2026</span>
+              <h3>The Edge Cloud Expansion</h3>
+              <p>
+                Major tech hubs are deploying localized edge servers to reduce
+                latency for autonomous medical reporting systems.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-review-reveal">
+            Latest Tech <span class="text-red">Reviews</span>
+          </h2>
+        </div>
+
+        <div class="reviews-wrapper">
+          <div class="review-card gsap-review-card">
+            <div class="review-img">
+              <img
+                src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1780&auto=format&fit=crop"
+                alt="Smartphone"
+              />
+            </div>
+            <div class="review-content">
+              <div class="stars">★★★★★</div>
+              <h4>NeuralPhone Pro Max</h4>
+              <p>
+                The ultimate interface for seamless medical data
+                synchronization.
+              </p>
+              <span class="review-tag">Smartphone</span>
+            </div>
+          </div>
+
+          <div class="review-card gsap-review-card">
+            <div class="review-img">
+              <img
+                src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format&fit=crop"
+                alt="Laptop"
+              />
+            </div>
+            <div class="review-content">
+              <div class="stars">★★★★☆</div>
+              <h4>Zenith Carbon Laptop</h4>
+              <p>
+                Ultra-secure graphite-cased workstation for nomadic journalists.
+              </p>
+              <span class="review-tag">Laptop</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="future-tech-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-future-reveal">
+            Innovation & <span class="text-red">Future Tech</span>
+          </h2>
+        </div>
+
+        <div class="innovation-grid">
+          <div
+            class="innovation-feature gsap-future-card"
+            style="
+              background-image:
+                linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url(&quot;https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2070&auto=format&fit=crop&quot;);
+            "
+          >
+            <div class="inn-content">
+              <h3>Artificial Intelligence</h3>
+              <p>
+                The transition from generative to autonomous reasoning agents.
+              </p>
+            </div>
+          </div>
+          <div
+            class="innovation-feature gsap-future-card"
+            style="
+              background-image:
+                linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url(&quot;https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=2072&auto=format&fit=crop&quot;);
+            "
+          >
+            <div class="inn-content">
+              <h3>Space Technology</h3>
+              <p>
+                Low-orbit data centers are solving the global latency crisis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video-news-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-video-reveal">
+            Tech Video <span class="text-red">Highlights</span>
+          </h2>
+        </div>
+
+        <div class="video-featured-grid">
+          <div class="video-main gsap-video-item">
+            <div class="video-placeholder">
+              <iframe
+                src="https://www.youtube.com/embed/u6KQYIW5XKo"
+                title="Enterprise Tech 2026"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video-info">
+              <span class="v-tag">Breaking Analysis</span>
+              <h3>Enterprise Tech Predictions 2026</h3>
+              <p>
+                TheCUBE Research breaks down the ROI of Agentic AI and the
+                shifting landscape of silicon infrastructure.
+              </p>
+            </div>
+          </div>
+
+          <div class="video-sidebar">
+            <div class="v-mini-card gsap-video-item">
+              <img
+                src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+                alt="Cybersecurity"
+              />
+              <div class="v-mini-text">
+                <h4>Cyber Resilience: Detection vs. Recovery</h4>
+                <span>12:45 // March 2026</span>
+              </div>
+            </div>
+            <div class="v-mini-card gsap-video-item">
+              <img
+                src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=300"
+                alt="Robotics"
+              />
+              <div class="v-mini-text">
+                <h4>MIT: Top 15 Breakthroughs</h4>
+                <span>08:20 // March 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="community-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-comm-reveal">
+            From the <span class="text-red">Community</span>
+          </h2>
+        </div>
+
+        <div class="community-grid">
+          <div class="debate-card gsap-comm-item">
+            <div class="debate-header">Tech Debate // Trending</div>
+            <h4>"Is Social Media making Democracy 'Not Human' anymore?"</h4>
+            <p>
+              A heated community discussion on AI-driven disinformation vs.
+              expanded civic participation.
+            </p>
+            <div class="debate-stats">
+              <span>1.2k Comments</span> <span>456 Shares</span>
+            </div>
+          </div>
+
+          <div class="debate-card gsap-comm-item">
+            <div class="debate-header">Public Policy</div>
+            <h4>Government Support for Sovereign Tech</h4>
+            <p>
+              Should the UK increase subsidies for home-grown LLM
+              infrastructure? The community votes.
+            </p>
+            <div class="debate-stats">
+              <span>890 Comments</span> <span>112 Shares</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-box gsap-news-box">
+          <div class="news-text">
+            <h2>
+              Stay Updated With <span class="text-red">Tech Intelligence</span>
+            </h2>
+            <p>
+              Join 50,000+ professionals receiving daily briefings on medical
+              hardware, autonomous systems, and 2026 tech sovereignty.
+            </p>
+          </div>
+          <form class="news-form" action="./error2.html">
+            <input
+              type="email"
+              placeholder="Enter your professional email..."
+              required
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index2.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./categories.html">Categories</a>
+          <a href="./latest-news.html">Latest News</a>
+          <a href="./tech-reviews.html">Tech Reviews</a>
+          <a href="./innovations.html">Innovations</a>
+          <a href="./login2.html">Login</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./categories.html">Categories</a>
+          <a href="./latest-news.html">Latest News</a>
+          <a href="./tech-reviews.html">Tech Reviews</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology news, trends, and
+            innovations.
+          </p>
+          <form action="./error2.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Updates & Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error2.html">Privacy Policy</a>
+          <a href="./error2.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  const heroAnimation = () => {
+    const tl = gsap.timeline();
+
+    // 1. Shutter Split
+    tl.to(".shutter-top", {
+      yPercent: -100,
+      duration: 1.5,
+      ease: "expo.inOut",
+    })
+      .to(
+        ".shutter-bottom",
+        {
+          yPercent: 100,
+          duration: 1.5,
+          ease: "expo.inOut",
+        },
+        "-=1.5",
+      )
+
+      // 2. Parallax zoom on the Unsplash background
+      .from(
+        ".hero-bg-visual",
+        {
+          scale: 1.4,
+          duration: 3,
+          ease: "power2.out",
+        },
+        "-=1",
+      )
+
+      // 3. Sequential Reveal of Text
+      .from(
+        ".hero-label-top",
+        {
+          opacity: 1,
+          y: -30,
+          duration: 1,
+        },
+        "-=1.5",
+      )
+      .from(
+        ".hero-title-main",
+        {
+          opacity: 1,
+          y: 60,
+          duration: 1.2,
+          ease: "power4.out",
+        },
+        "-=1",
+      )
+      .from(
+        ".gsap-reveal-fade",
+        {
+          opacity: 1,
+          y: 20,
+          stagger: 0.2,
+          duration: 0.8,
+        },
+        "-=0.8",
+      );
+
+    // Endless pulse for the status dot
+    gsap.to(".pulse-ring", {
+      boxShadow: "0 0 25px 10px rgba(139, 0, 0, 0)",
+      backgroundColor: "rgba(139, 0, 0, 0.5)",
+      duration: 1,
+      repeat: -1,
+      yoyo: true,
+    });
+  };
+
+  // Initialize
+  window.addEventListener("load", heroAnimation);
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Reveal Titles
+  gsap.utils.toArray(".gsap-reveal-title").forEach((title) => {
+    gsap.from(title, {
+      scrollTrigger: { trigger: title, start: "top 90%" },
+      x: -50,
+      opacity: 1,
+      duration: 1,
+      ease: "power3.out",
+    });
+  });
+
+  // Staggered Stories Up
+  gsap.from(".stories-grid .gsap-reveal-up", {
+    scrollTrigger: { trigger: ".stories-grid", start: "top 80%" },
+    y: 60,
+    opacity: 1,
+    stagger: 0.2,
+    duration: 1,
+    ease: "expo.out",
+  });
+
+  // Trending Left/Right reveal
+  gsap.from(".gsap-reveal-left", {
+    scrollTrigger: { trigger: ".trending-grid", start: "top 85%" },
+    opacity: 1,
+    stagger: 0.2,
+    duration: 1.2,
+  });
+
+  gsap.from(".gsap-reveal-right", {
+    scrollTrigger: { trigger: ".trending-grid", start: "top 85%" },
+    opacity: 1,
+    stagger: 0.2,
+    duration: 1.2,
+  });
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Reveal Section Headers
+  const headers = [
+    ".gsap-news-reveal",
+    ".gsap-review-reveal",
+    ".gsap-future-reveal",
+  ];
+  headers.forEach((h) => {
+    gsap.from(h, {
+      scrollTrigger: { trigger: h, start: "top 90%" },
+      x: -30,
+      opacity: 1,
+      duration: 1,
+    });
+  });
+
+  // Staggered News Entrance
+  gsap.from(".gsap-news-item", {
+    scrollTrigger: { trigger: ".news-grid", start: "top 80%" },
+    y: 50,
+    opacity: 1,
+    stagger: 0.15,
+    duration: 1,
+    ease: "power4.out",
+  });
+
+  // Review Cards Side Reveal
+  gsap.from(".gsap-review-card", {
+    scrollTrigger: { trigger: ".reviews-wrapper", start: "top 80%" },
+    scale: 0.9,
+    opacity: 1,
+    stagger: 0.3,
+    duration: 1.2,
+    ease: "expo.out",
+  });
+
+  // Future Tech Zoom Reveal
+  gsap.from(".gsap-future-card", {
+    scrollTrigger: { trigger: ".innovation-grid", start: "top 75%" },
+    y: 100,
+    opacity: 1,
+    stagger: 0.4,
+    duration: 1.5,
+    ease: "power3.out",
+  });
+</script>

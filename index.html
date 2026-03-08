@@ -1,0 +1,1098 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Technology</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./index.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily News Technologies</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index2.html">Home 2</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./service.html">Services</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="./dashboard.html">Dashboard</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index2.html">Home 2</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./about.html">About</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./service.html">Services</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./blog.html">Blog</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./contact.html">Contact Us</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="350">
+          <a href="./dashboard.html">Dashboard</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="400">
+          <a href="./login.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <span class="badge">Advanced Medical Systems</span>
+            <h1 class="headline">
+              Latest Technology News & <br /><span class="highlight"
+                >Digital Innovations</span
+              >
+            </h1>
+            <p class="subtext">
+              Explore the frontier of healthcare. From robotic surgical
+              precision to AI-driven diagnostics, we track the emerging trends
+              shaping the future of medical devices.
+            </p>
+            <div class="cta-group">
+              <a href="./error.html" class="btn btn-primary"
+                >Read Latest News</a
+              >
+              <a href="./error.html" class="btn btn-secondary"
+                >Clinical Insights</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=1000"
+                alt="Medical Technology Interface"
+                class="main-img"
+              />
+              <div class="floating-card card-1">
+                <span>Precision Engineering</span>
+              </div>
+              <div class="floating-card card-2"><span>2026 Roadmap</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bg-accent"></div>
+      </section>
+
+    <!-- Featured News Section -->
+    <section class="featured-news">
+      <div class="news-container">
+        <div class="news-header">
+          <h2 class="news-title">Featured Technology News</h2>
+          <p class="news-subtitle">
+            Latest updates from the world of innovation
+          </p>
+        </div>
+
+        <!-- Featured Main Article -->
+        <div class="featured-main">
+          <div class="featured-image">
+            <img
+              src="https://images.unsplash.com/photo-1677442d019cecf8d13dd3a3c81be4c38cd3474c?w=800&q=80"
+              alt="AI Technology"
+            />
+            <div class="featured-overlay"></div>
+            <div class="featured-badge">Featured</div>
+          </div>
+          <div class="featured-content">
+            <div class="news-meta">
+              <span class="category">Artificial Intelligence</span>
+              <span class="date">March 7, 2026</span>
+            </div>
+            <h3>Revolutionary AI Model Reshapes Industry Standards</h3>
+            <p>
+              Breakthrough in machine learning technology promises unprecedented
+              accuracy and efficiency. Scientists have developed a new AI
+              framework that processes information 10x faster than previous
+              generations, offering transformative solutions across healthcare,
+              finance, and education sectors.
+            </p>
+            <div class="featured-footer">
+              <div class="author-info">
+                <img
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=50&h=50&fit=crop"
+                  alt="Author"
+                />
+                <div>
+                  <p class="author-name">Sarah Johnson</p>
+                  <p class="author-role">Tech Correspondent</p>
+                </div>
+              </div>
+              <a href="./error.html" class="read-more">Read Full Article →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- News Grid -->
+        <div class="news-grid">
+          <!-- News Card 1 -->
+          <article class="news-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&q=80"
+                alt="Quantum Computing"
+              />
+              <div class="card-overlay"></div>
+              <span class="read-time">5 min read</span>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="category cat-quantum">Quantum Computing</span>
+                <span class="date">March 6, 2026</span>
+              </div>
+              <h4>Quantum Computers Achieve Major Milestone</h4>
+              <p>
+                Major tech companies announce successful quantum computing
+                breakthrough with practical applications in drug discovery and
+                financial modeling.
+              </p>
+              <div class="card-footer">
+                <a href="./error.html" class="author-link">By Michael Chen</a>
+                <span class="views">2.4K views</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- News Card 2 -->
+          <article class="news-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80"
+                alt="Cybersecurity"
+              />
+              <div class="card-overlay"></div>
+              <span class="read-time">7 min read</span>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="category cat-security">Cybersecurity</span>
+                <span class="date">March 5, 2026</span>
+              </div>
+              <h4>Next-Gen Encryption Standards Released</h4>
+              <p>
+                Global security experts unveil new encryption protocols designed
+                to protect against quantum computing threats and contemporary
+                cyber attacks.
+              </p>
+              <div class="card-footer">
+                <a href="./error.html" class="author-link">By Emma Rodriguez</a>
+                <span class="views">1.8K views</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- News Card 3 -->
+          <article class="news-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1518611505868-48510c2e2e3d?w=500&q=80"
+                alt="5G Network"
+              />
+              <div class="card-overlay"></div>
+              <span class="read-time">6 min read</span>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="category cat-network">5G & Connectivity</span>
+                <span class="date">March 4, 2026</span>
+              </div>
+              <h4>Global 5G Network Expansion Accelerates</h4>
+              <p>
+                Telecommunications leaders report rapid deployment of 5G
+                infrastructure, enabling faster internet speeds and improved IoT
+                device connectivity worldwide.
+              </p>
+              <div class="card-footer">
+                <a href="./error.html" class="author-link">By David Park</a>
+                <span class="views">3.2K views</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- News Card 4 -->
+          <article class="news-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1516321318423-f06f70259b51?w=500&q=80"
+                alt="Robotics"
+              />
+              <div class="card-overlay"></div>
+              <span class="read-time">8 min read</span>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="category cat-robotics">Robotics</span>
+                <span class="date">March 3, 2026</span>
+              </div>
+              <h4>Humanoid Robots Enter Manufacturing Sector</h4>
+              <p>
+                Advanced robotics showcase human-like dexterity and
+                adaptability, revolutionizing assembly line operations and
+                skilled labor processes across industries.
+              </p>
+              <div class="card-footer">
+                <a href="./error.html" class="author-link">By Lisa Wright</a>
+                <span class="views">2.9K views</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- News Card 5 -->
+          <article class="news-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1559056199-641a0ac8b3f4?w=500&q=80"
+                alt="Virtual Reality"
+              />
+              <div class="card-overlay"></div>
+              <span class="read-time">6 min read</span>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="category cat-vr">Virtual Reality</span>
+                <span class="date">March 2, 2026</span>
+              </div>
+              <h4>VR Technology Transforms Education Systems</h4>
+              <p>
+                Educational institutions worldwide adopt immersive virtual
+                reality platforms for interactive learning experiences,
+                improving student engagement and retention rates.
+              </p>
+              <div class="card-footer">
+                <a href="./error.html" class="author-link">By James Matthews</a>
+                <span class="views">2.1K views</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- News Card 6 -->
+          <article class="news-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1551028719-00167b16ebc5?w=500&q=80"
+                alt="Green Technology"
+              />
+              <div class="card-overlay"></div>
+              <span class="read-time">7 min read</span>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="category cat-green">Green Tech</span>
+                <span class="date">March 1, 2026</span>
+              </div>
+              <h4>Sustainable Energy Solutions Gain Momentum</h4>
+              <p>
+                Renewable energy breakthroughs promise significant reductions in
+                carbon footprint, with new solar and wind technologies achieving
+                record efficiency rates.
+              </p>
+              <div class="card-footer">
+                <a href="./error.html" class="author-link">By Rachel Green</a>
+                <span class="views">3.5K views</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+       
+      </div>
+    </section>
+
+    <!-- ======== Additional News Sections ======== -->
+
+    <!-- Trending Technology -->
+    <section class="trending-technology section-block">
+      <div class="container">
+        <h2 class="section-title">Trending Technology</h2>
+        <div class="card-grid">
+          <article class="feature-card">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1581091870624-0c44e0d1f631?w=600&q=80" alt="Smartphone AI">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3>AI Integration in Mobile Devices</h3>
+              <p>Leading smartphone manufacturers now ship devices with on-device AI processing to protect user privacy and accelerate performance.</p>
+              <a href="./error.html" class="read-more">Read More</a>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1526378725532-e3b3fa4ff7cc?w=600&q=80" alt="Wearable Tech">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3>Wearables Track Health Like Never Before</h3>
+              <p>New sensors embedded in wearables can detect early signs of illness using machine learning models trained on millions of records.</p>
+              <a href="./error.html" class="read-more">Read More</a>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=600&q=80" alt="Autonomous Vehicles">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3>Autonomous Vehicles Enter Public Roads</h3>
+              <p>Pilot programs for self-driving cars expand to major cities, promising reduced congestion and improved safety.</p>
+              <a href="./error.html" class="read-more">Read More</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Breaking News -->
+    <section class="breaking-news section-block">
+      <div class="container">
+        <h2 class="section-title">Breaking News</h2>
+        <div class="headline-card">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1581093588401-9c43ff18bbda?w=800&q=80" alt="Cyber Attack">
+            <div class="card-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h3>Major Cyber Attack Disrupts Global Infrastructure</h3>
+            <p>Unprecedented ransomware attack affects banks, hospitals, and governments worldwide, experts warn of long-term consequences.</p>
+            <a href="./error.html" class="read-more">Full Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Articles -->
+    <section class="featured-articles section-block">
+      <div class="container">
+        <h2 class="section-title">Featured Articles</h2>
+        <div class="card-grid">
+          <!-- reuse feature-card markup above with different content -->
+          <article class="feature-card">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80" alt="Cloud Computing">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3>Cloud Computing Costs Drop 40%</h3>
+              <p>Providers compete to offer cheaper storage and compute, benefiting startups and enterprises alike.</p>
+              <a href="./error.html" class="read-more">Explore</a>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1507608869271-1e751bb6b8aa?w=600&q=80" alt="Blockchain">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3>Blockchain Adoption Grows in Supply Chain</h3>
+              <p>Major retailers implement blockchain for transparent tracking of goods from factory to store.</p>
+              <a href="./error.html" class="read-more">Explore</a>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?w=600&q=80" alt="Quantum Research">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3>Quantum Research Receives Record Funding</h3>
+              <p>Governments pledge billions to accelerate quantum computing breakthroughs in the next decade.</p>
+              <a href="./error.html" class="read-more">Explore</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Startup Spotlight -->
+    <section class="startup-spotlight section-block">
+      <div class="container">
+        <h2 class="section-title">Startup Spotlight</h2>
+        <div class="card-grid">
+          <article class="feature-card">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1531522184432-960637110d54?w=600&q=80" alt="Startup Team">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3>AI-Driven Health Startup Raises $50M</h3>
+              <p>Company uses deep learning to detect early-stage diseases from blood samples.</p>
+              <a href="./error.html" class="read-more">Learn More</a>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&q=80" alt="Tech Workspace">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3>Remote Work Platform Gains Momentum</h3>
+              <p>New tool simplifies collaboration across continents and time zones with VR meeting rooms.</p>
+              <a href="./error.html" class="read-more">Learn More</a>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1555529771-b2a50ae5bbef?w=600&q=80" alt="Biotech Lab">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3>Biotech Startup Develops Synthetic Organs</h3>
+              <p>Breakthrough could solve transplant shortages within five years.</p>
+              <a href="./error.html" class="read-more">Learn More</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Videos -->
+    <section class="tech-videos section-block">
+      <div class="container">
+        <h2 class="section-title">Tech Videos</h2>
+        <div class="video-grid">
+          <article class="video-card" data-video-url="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?w=600&q=80" alt="VR Demo">
+              <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="card-body">
+              <h3>Future of Virtual Reality</h3>
+            </div>
+          </article>
+          <article class="video-card" data-video-url="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1547721064-da6cfb341d50?w=600&q=80" alt="Quantum Talk">
+              <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="card-body">
+              <h3>Quantum Computing Explained</h3>
+            </div>
+          </article>
+          <article class="video-card" data-video-url="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?w=600&q=80" alt="AI Conversation">
+              <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="card-body">
+              <h3>AI Meets Humans</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Editor’s Picks -->
+    <section class="editors-picks section-block">
+      <div class="container">
+        <h2 class="section-title">Editor’s Picks</h2>
+        <div class="card-grid">
+          <article class="feature-card">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&q=80" alt="Gadget Review">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3>Top 10 Gadgets of 2026</h3>
+              <p>A comprehensive review of the most innovative gadgets released this year.</p>
+              <a href="./error.html" class="read-more">Check It Out</a>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80" alt="Data Center">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3>Inside the World's Largest Data Center</h3>
+              <p>Take a tour of the massive facility powering the cloud.</p>
+              <a href="./error.html" class="read-more">Check It Out</a>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80" alt="Robot Assistant">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3>Home Robots We Love</h3>
+              <p>An editor-curated list of helper robots that are changing domestic life.</p>
+              <a href="./error.html" class="read-more">Check It Out</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+     <!-- Newsletter Subscription -->
+        <div class="news-newsletter">
+          <h3>Stay Updated with Latest Technology News</h3>
+          <p>
+            Subscribe to receive curated articles, exclusive insights, and
+            breaking news directly in your inbox
+          </p>
+          <form class="newsletter-form" action="./error.html">
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <button type="submit" class="btn-subscribe">Subscribe Now</button>
+          </form>
+        </div>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./about.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./contact.html">Contact Us</a>
+          <a href="./dashboard.html">Dashboard</a>
+          <a href="./login.html">Login</a>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./about.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./blog.html">Blog</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology news, trends, and
+            innovations.
+          </p>
+          <form action="./error.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Updates & Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error.html">Privacy Policy</a>
+          <a href="./error.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+
+    // Staggered reveal of text elements
+    tl.from(".badge", {
+      y: 20,
+      opacity: 1,
+      duration: 0.6,
+    })
+      .from(
+        ".headline",
+        {
+          y: 40,
+          opacity: 1,
+          duration: 0.8,
+        },
+        "-=0.3",
+      )
+      .from(
+        ".subtext",
+        {
+          y: 20,
+          opacity: 1,
+          duration: 0.8,
+        },
+        "-=0.5",
+      )
+      .from(
+        ".btn",
+        {
+          y: 20,
+          opacity: 1,
+          stagger: 0.15,
+          duration: 0.6,
+        },
+        "-=0.5",
+      )
+      .from(
+        ".image-wrapper",
+        {
+          scale: 0.95,
+          opacity: 1,
+          duration: 1.2,
+        },
+        "-=1",
+      )
+      .from(
+        ".floating-card",
+        {
+          x: 30,
+          opacity: 1,
+          stagger: 0.2,
+          duration: 0.8,
+        },
+        "-=0.4",
+      );
+
+    // Continuous subtle floating effect
+    gsap.to(".floating-card", {
+      y: -10,
+      duration: 2.5,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut",
+    });
+  });
+</script>
+
+<script>
+  // ==================== GSAP ANIMATIONS FOR FEATURED NEWS ==================== //
+
+  // Register ScrollTrigger
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Featured Main Article Animation
+  gsap.from(".featured-main", {
+    scrollTrigger: {
+      trigger: ".featured-main",
+      scrub: false,
+      markers: false,
+    },
+    opacity: 1,
+    duration: 1,
+    ease: "power3.out",
+  });
+
+  // Featured Image Slide-in Animation
+  gsap.from(".featured-image", {
+    scrollTrigger: {
+      trigger: ".featured-main",
+      start: "top 80%",
+    },
+    opacity: 1,
+    duration: 0.8,
+    delay: 0.1,
+    ease: "power2.out",
+  });
+
+  // Featured Content Slide-in Animation
+  gsap.from(".featured-content", {
+    scrollTrigger: {
+      trigger: ".featured-main",
+      start: "top 80%",
+    },
+    opacity: 1,
+    x: 50,
+    duration: 0.8,
+    delay: 0.2,
+    ease: "power2.out",
+  });
+
+  // News Title Animation
+  gsap.from(".news-title", {
+    scrollTrigger: {
+      trigger: ".news-header",
+      start: "top 85%",
+    },
+    opacity: 1,
+    y: 40,
+    duration: 0.8,
+    ease: "back.out",
+  });
+
+  // News Subtitle Animation
+  gsap.from(".news-subtitle", {
+    scrollTrigger: {
+      trigger: ".news-header",
+      start: "top 85%",
+    },
+    opacity: 1,
+    y: 30,
+    duration: 0.8,
+    delay: 0.1,
+    ease: "power2.out",
+  });
+
+  // News Card Stagger Animation
+  gsap.from(".news-card", {
+    scrollTrigger: {
+      trigger: ".news-grid",
+      start: "top 75%",
+    },
+    opacity: 1,
+    y: 50,
+    duration: 0.6,
+    stagger: 0.15,
+    ease: "power2.out",
+  });
+
+  // News Card Hover Animation
+  document.querySelectorAll(".news-card").forEach((card) => {
+    const image = card.querySelector(".card-image img");
+
+    card.addEventListener("mouseenter", () => {
+      gsap.to(image, {
+        scale: 1.1,
+        duration: 0.6,
+        ease: "power2.out",
+      });
+    });
+
+    card.addEventListener("mouseleave", () => {
+      gsap.to(image, {
+        scale: 1,
+        duration: 0.6,
+        ease: "power2.out",
+      });
+    });
+  });
+
+  // Featured Image Hover Animation
+  const featuredImg = document.querySelector(".featured-image img");
+  if (featuredImg) {
+    const featuredImageContainer = document.querySelector(".featured-image");
+
+    featuredImageContainer.addEventListener("mouseenter", () => {
+      gsap.to(featuredImg, {
+        scale: 1.08,
+        duration: 0.8,
+        ease: "power2.out",
+      });
+    });
+
+    featuredImageContainer.addEventListener("mouseleave", () => {
+      gsap.to(featuredImg, {
+        scale: 1,
+        duration: 0.8,
+        ease: "power2.out",
+      });
+    });
+  }
+
+  // Newsletter Section Animation
+  gsap.from(".news-newsletter", {
+    scrollTrigger: {
+      trigger: ".news-newsletter",
+      start: "top 75%",
+    },
+    opacity: 1,
+    scale: 0.9,
+    y: 40,
+    duration: 0.8,
+    ease: "back.out",
+  });
+
+  // Newsletter Form Input Animation
+  const newsletterInput = document.querySelector(".newsletter-form input");
+  if (newsletterInput) {
+    newsletterInput.addEventListener("focus", () => {
+      gsap.to(newsletterInput, {
+        scale: 1.02,
+        duration: 0.3,
+        ease: "power2.out",
+      });
+    });
+
+    newsletterInput.addEventListener("blur", () => {
+      gsap.to(newsletterInput, {
+        scale: 1,
+        duration: 0.3,
+        ease: "power2.out",
+      });
+    });
+  }
+
+  // Subscribe Button Hover Animation
+  const subscribeBtn = document.querySelector(".btn-subscribe");
+  if (subscribeBtn) {
+    subscribeBtn.addEventListener("mouseenter", () => {
+      gsap.to(subscribeBtn, {
+        y: -3,
+        duration: 0.3,
+        ease: "power2.out",
+      });
+    });
+
+    subscribeBtn.addEventListener("mouseleave", () => {
+      gsap.to(subscribeBtn, {
+        y: 0,
+        duration: 0.3,
+        ease: "power2.out",
+      });
+    });
+
+    subscribeBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      // Button click animation
+      gsap.to(subscribeBtn, {
+        scale: 0.98,
+        duration: 0.1,
+        yoyo: true,
+        repeat: 1,
+        ease: "power2.inOut",
+      });
+
+      // Optional: Add success animation
+      const originalText = subscribeBtn.textContent;
+      subscribeBtn.textContent = "✓ Subscribed!";
+
+      setTimeout(() => {
+        subscribeBtn.textContent = originalText;
+      }, 2000);
+    });
+  }
+
+  // Badge Animation on Hover
+  const featuredBadge = document.querySelector(".featured-badge");
+  if (featuredBadge) {
+    gsap.from(featuredBadge, {
+      opacity: 1,
+      y: -20,
+      duration: 0.6,
+      delay: 0.5,
+      ease: "back.out",
+    });
+
+    featuredBadge.addEventListener("mouseenter", () => {
+      gsap.to(featuredBadge, {
+        scale: 1.1,
+        boxShadow: "0 15px 40px rgba(46, 204, 113, 0.4)",
+        duration: 0.3,
+        ease: "power2.out",
+      });
+    });
+
+    featuredBadge.addEventListener("mouseleave", () => {
+      gsap.to(featuredBadge, {
+        scale: 1,
+        boxShadow: "0 10px 30px rgba(46, 204, 113, 0.2)",
+        duration: 0.3,
+        ease: "power2.out",
+      });
+    });
+  }
+
+  // Parallax Effect for Featured Image (Scroll)
+  if (featuredImg) {
+    gsap.to(featuredImg, {
+      scrollTrigger: {
+        trigger: ".featured-main",
+        start: "top center",
+        end: "bottom center",
+        scrub: 1,
+        markers: false,
+      },
+      y: -50,
+      ease: "none",
+    });
+  }
+
+  // Card Read Time Badge Animation
+  document.querySelectorAll(".read-time").forEach((badge) => {
+    gsap.from(badge, {
+      opacity: 1,
+      scale: 0.8,
+      duration: 0.5,
+      delay: 0.3,
+      ease: "back.out",
+    });
+  });
+
+  // Floating Animation for Featured Badge
+  gsap.to(".featured-badge", {
+    y: -5,
+    duration: 2,
+    repeat: -1,
+    yoyo: true,
+    ease: "sine.inOut",
+  });
+
+  // ================= GSAP for Additional Sections =================
+  function animateSection(selector, item) {
+    gsap.from(`${selector} .section-title`, {
+      scrollTrigger: {
+        trigger: selector,
+        start: "top 85%",
+      },
+      opacity: 1,
+      y: 40,
+      duration: 0.8,
+      ease: "back.out",
+    });
+
+    gsap.from(`${selector} ${item}`, {
+      scrollTrigger: {
+        trigger: selector,
+        start: "top 75%",
+      },
+      opacity: 1,
+      y: 50,
+      duration: 0.6,
+      stagger: 0.15,
+      ease: "power2.out",
+    });
+  }
+
+  animateSection(".trending-technology", ".feature-card");
+  animateSection(".breaking-news", ".headline-card");
+  animateSection(".featured-articles", ".feature-card");
+  animateSection(".startup-spotlight", ".feature-card");
+  animateSection(".tech-videos", ".video-card");
+  animateSection(".editors-picks", ".feature-card");
+
+  // video card interactions
+  document.querySelectorAll(".video-card").forEach((card) => {
+    const icon = card.querySelector(".play-overlay");
+    card.addEventListener("mouseenter", () => {
+      gsap.to(icon, { scale: 1.2, duration: 0.3, ease: "power2.out" });
+    });
+    card.addEventListener("mouseleave", () => {
+      gsap.to(icon, { scale: 1, duration: 0.3, ease: "power2.out" });
+    });
+    card.addEventListener("click", () => {
+      const url = card.dataset.videoUrl;
+      if (url) window.open(url, "_blank");
+    });
+  });
+</script>

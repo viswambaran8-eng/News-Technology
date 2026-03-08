@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Technology</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./innovations.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily News Technologies</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index2.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index2.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index.html">Home 1</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./categories.html">Categories</a></li>
+            <li><a href="./latest-news.html">Latest News</a></li>
+            <li><a href="./tech-reviews.html">Tech Reviews</a></li>
+            <li><a href="./innovations.html">Innovations</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login2.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index2.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index.html">Home 1</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./categories.html">Categories</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./latest-news.html">Latest News</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./tech-reviews.html">Tech Reviews</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./innovations.html">Innovations</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="350">
+          <a href="./login2.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <section class="innovation-hero">
+      <div class="hero-bg-visual">
+        <img
+          src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072"
+          alt="Space Innovation"
+          class="gsap-parallax-bg"
+        />
+      </div>
+      <div class="hero-overlay-gradient"></div>
+      <div class="data-particles-container" id="particles-js"></div>
+
+      <div class="container relative z-10">
+        <div class="hero-content">
+          <div class="innovation-tag gsap-reveal">
+            <span class="pulse-ring"></span> NEXT_GEN_HORIZON
+          </div>
+
+          <h1 class="gsap-split-text">
+            Innovations <br />
+            Shaping the <span class="text-red">Future</span>
+          </h1>
+
+          <p class="hero-subtext gsap-reveal">
+            Explore groundbreaking technologies, scientific discoveries, and
+            visionary ideas transforming the world. From quantum medical devices
+            to sovereign orbital networks.
+          </p>
+
+          <div class="hero-actions gsap-reveal">
+            <a href="#discover" class="btn-primary">Explore Discoveries</a>
+            <a href="#" class="btn-secondary">View 2026 Roadmap</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-coords gsap-reveal">
+        LAT: 40.7128° N <br />
+        LONG: 74.0060° W
+      </div>
+    </section>
+
+    <section class="featured-innovations-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-reveal-title">
+            Featured <span class="text-red">Breakthroughs</span>
+          </h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="innovation-grid">
+          <article class="innov-card-large gsap-reveal-up">
+            <div class="innov-img">
+              <img
+                src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070"
+                alt="Neural Networks"
+              />
+              <div class="innov-category">SYSTEM_CORE</div>
+            </div>
+            <div class="innov-content">
+              <h3>Liquid Silicon: The End of Thermal Throttling</h3>
+              <p>
+                Researchers have successfully integrated microfluidic cooling
+                directly into the silicon substrate, allowing for 200% higher
+                clock speeds in medical AI servers.
+              </p>
+              <a href="#" class="btn-innov">Explore Tech Specs →</a>
+            </div>
+          </article>
+
+          <article class="innov-card-large gsap-reveal-up">
+            <div class="innov-img">
+              <img
+                src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2070"
+                alt="Robotics"
+              />
+              <div class="innov-category">ROBOTICS</div>
+            </div>
+            <div class="innov-content">
+              <h3>Haptic Dexterity 2.0</h3>
+              <p>
+                New bio-synthetic actuators allow humanoid robots to perform
+                delicate cardiovascular surgeries with a precision of 0.01
+                millimeters.
+              </p>
+              <a href="#" class="btn-innov">Explore Tech Specs →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="ai-hub-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="gsap-reveal-title">
+            Artificial <span class="text-red">Intelligence</span>
+          </h2>
+          <p class="section-subtitle">
+            Decrypting the latest in neural reasoning and agentic workflows.
+          </p>
+        </div>
+
+        <div class="ai-grid">
+          <div class="ai-item gsap-reveal-stagger">
+            <div class="ai-icon-box">01</div>
+            <h4>Agentic Autonomy</h4>
+            <p>
+              Self-correcting AI agents that can manage entire supply chains
+              without human intervention.
+            </p>
+            <div class="ai-hover-line"></div>
+          </div>
+
+          <div class="ai-item gsap-reveal-stagger">
+            <div class="ai-icon-box">02</div>
+            <h4>Generative Biology</h4>
+            <p>
+              AI models specifically trained to sequence proteins for 2026
+              medical device compatibility.
+            </p>
+            <div class="ai-hover-line"></div>
+          </div>
+
+          <div class="ai-item gsap-reveal-stagger">
+            <div class="ai-icon-box">03</div>
+            <h4>Quantum LLMs</h4>
+            <p>
+              Large Language Models running on quantum-hybrid architecture for
+              instant decryption.
+            </p>
+            <div class="ai-hover-line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="robotics-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-reveal-title">
+            Robotics & <span class="text-red">Automation</span>
+          </h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="robotics-flex">
+          <div class="robot-main gsap-reveal-left">
+            <div class="robot-visual">
+              <img
+                src="https://images.unsplash.com/photo-1531746790731-6c087fecd05a?q=80&w=2000"
+                alt="Industrial Robot"
+              />
+              <div class="robot-ui-overlay">
+                <div class="ui-scanner"></div>
+                <span class="ui-data">MODEL_V.26 // ACTIVE</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="robot-details">
+            <div class="robot-item gsap-reveal-right">
+              <span class="robot-num">01</span>
+              <div class="robot-text">
+                <h4>Healthcare Robotics</h4>
+                <p>
+                  Nano-scale surgical bots capable of intravascular repairs with
+                  2026-grade neural precision.
+                </p>
+              </div>
+            </div>
+            <div class="robot-item gsap-reveal-right">
+              <span class="robot-num">02</span>
+              <div class="robot-text">
+                <h4>Industrial Automation</h4>
+                <p>
+                  Fully autonomous gigafactories utilizing swarm intelligence
+                  for 24/7 manufacturing cycles.
+                </p>
+              </div>
+            </div>
+            <div class="robot-item gsap-reveal-right">
+              <span class="robot-num">03</span>
+              <div class="robot-text">
+                <h4>Autonomous Delivery</h4>
+                <p>
+                  The first urban drone networks to receive government clearance
+                  for heavy-load medical transport.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="space-section">
+      <div class="space-parallax-container">
+        <img
+          src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=2072"
+          alt="Satellite in Space"
+          class="gsap-space-bg"
+        />
+        <div class="space-overlay"></div>
+
+        <div class="container relative z-10">
+          <div class="space-content">
+            <h2 class="gsap-reveal-title">
+              Space & <span class="text-red">Aerospace</span>
+            </h2>
+            <div class="space-grid">
+              <div class="space-card gsap-reveal-up">
+                <div class="space-icon">🛰️</div>
+                <h4>Satellite Technology</h4>
+                <p>
+                  Next-gen orbital mesh networks providing 10Gbps laser-link
+                  internet globally.
+                </p>
+              </div>
+              <div class="space-card gsap-reveal-up">
+                <div class="space-icon">🚀</div>
+                <h4>Lunar Missions</h4>
+                <p>
+                  The Artemis-X expansion establishing the first sustainable
+                  oxygen-extraction plant on the Moon.
+                </p>
+              </div>
+              <div class="space-card gsap-reveal-up">
+                <div class="space-icon">🛸</div>
+                <h4>Propulsion Labs</h4>
+                <p>
+                  Testing nuclear thermal propulsion for 2027 deep-space
+                  reconnaissance missions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="future-computing-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-reveal-title">
+            Future of <span class="text-red">Computing</span>
+          </h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="computing-grid">
+          <article class="comp-card gsap-reveal-up">
+            <div class="comp-icon">
+              <img
+                src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=800"
+                alt="Quantum Computing"
+              />
+            </div>
+            <div class="comp-body">
+              <h4>Quantum Supremacy</h4>
+              <p>
+                The 2026 1,000-qubit processor threshold has been crossed,
+                enabling real-time molecular simulation for new drug discovery.
+              </p>
+            </div>
+          </article>
+
+          <article class="comp-card gsap-reveal-up">
+            <div class="comp-icon">
+              <img
+                src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800"
+                alt="Cloud Advancement"
+              />
+            </div>
+            <div class="comp-body">
+              <h4>Edge-Cloud Mesh</h4>
+              <p>
+                Decentralized cloud nodes are moving from data centers to
+                city-level infrastructure, reducing latency to < 1ms.
+              </p>
+            </div>
+          </article>
+
+          <article class="comp-card gsap-reveal-up">
+            <div class="comp-icon">
+              <img
+                src="https://images.unsplash.com/photo-1591405351990-4726e331f141?q=80&w=800"
+                alt="Next-Gen Processor"
+              />
+            </div>
+            <div class="comp-body">
+              <h4>Biological Silicon</h4>
+              <p>
+                Prototypes of protein-based logic gates are showing 100x
+                efficiency over traditional transistor-based architecture.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sustainable-tech-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="gsap-reveal-title">
+            Green & <span class="text-red">Sustainable</span>
+          </h2>
+          <p class="section-subtitle">
+            Engineering a carbon-neutral digital future.
+          </p>
+        </div>
+
+        <div class="sustain-grid">
+          <div class="sustain-item gsap-reveal-scale">
+            <img
+              src="https://images.unsplash.com/photo-1466611653911-954ff21caafc?q=80&w=800"
+              alt="Renewable Energy"
+            />
+            <div class="sustain-info">
+              <h5>Smart Renewable Grids</h5>
+              <p>
+                AI-managed solar arrays that predict weather patterns to
+                optimize battery storage.
+              </p>
+            </div>
+          </div>
+          <div class="sustain-item gsap-reveal-scale">
+            <img
+              src="https://images.unsplash.com/photo-1519003722824-192d992a6059?q=80&w=800"
+              alt="Electric Vehicle"
+            />
+            <div class="sustain-info">
+              <h5>Solid-State EV Hubs</h5>
+              <p>
+                Next-gen batteries reaching 1000km range with 5-minute charge
+                cycles.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="startup-spotlight-section">
+      <div class="container">
+        <div class="startup-banner">
+          <div class="radar-circle"></div>
+          <div class="startup-content">
+            <h2 class="gsap-reveal-title">
+              Startup <span class="text-red">Spotlight</span>
+            </h2>
+            <div class="startup-list">
+              <div class="startup-entry gsap-reveal-list">
+                <strong>NeuralSync Inc.</strong> - Disruptive brain-computer
+                interfaces for workspace productivity.
+              </div>
+              <div class="startup-entry gsap-reveal-list">
+                <strong>OrbitMesh</strong> - Small-sat clusters providing
+                private satellite networks for startups.
+              </div>
+              <div class="startup-entry gsap-reveal-list">
+                <strong>C-Capture AI</strong> - Industrial-scale AI that
+                optimizes carbon-scrubbing facilities.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index2.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./categories.html">Categories</a>
+          <a href="./latest-news.html">Latest News</a>
+          <a href="./tech-reviews.html">Tech Reviews</a>
+          <a href="./innovations.html">Innovations</a>
+          <a href="./login2.html">Login</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./categories.html">Categories</a>
+          <a href="./latest-news.html">Latest News</a>
+          <a href="./tech-reviews.html">Tech Reviews</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology news, trends, and
+            innovations.
+          </p>
+          <form action="./error2.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Updates & Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error2.html">Privacy Policy</a>
+          <a href="./error2.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  const innovationTl = gsap.timeline();
+
+  // 1. Zoom into the background image
+  innovationTl
+    .from(".gsap-parallax-bg", {
+      scale: 1.5,
+      duration: 3,
+      ease: "power2.out",
+    })
+
+    // 2. Reveal text components
+    .from(
+      ".gsap-split-text",
+      {
+        y: 80,
+        opacity: 1,
+        duration: 1.2,
+        ease: "expo.out",
+      },
+      "-=2",
+    )
+
+    .from(
+      ".gsap-reveal",
+      {
+        opacity: 1,
+        y: 30,
+        stagger: 0.2,
+        duration: 1,
+        ease: "power3.out",
+      },
+      "-=1",
+    );
+
+  // Parallax movement on scroll
+  gsap.to(".gsap-parallax-bg", {
+    yPercent: 20,
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".innovation-hero",
+      start: "top top",
+      end: "bottom top",
+      scrub: true,
+    },
+  });
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  // 1. Title Reveal
+  gsap.from(".gsap-reveal-title", {
+    scrollTrigger: { trigger: ".gsap-reveal-title", start: "top 90%" },
+    opacity: 1,
+    y: 30,
+    duration: 1,
+    ease: "power3.out",
+  });
+
+  // 2. Large Innovation Cards - Fade Up
+  gsap.from(".gsap-reveal-up", {
+    scrollTrigger: { trigger: ".innovation-grid", start: "top 80%" },
+    opacity: 1,
+    y: 60,
+    stagger: 0.3,
+    duration: 1.2,
+    ease: "expo.out",
+  });
+
+  // 3. AI Grid - Staggered Reveal
+  gsap.from(".gsap-reveal-stagger", {
+    scrollTrigger: { trigger: ".ai-grid", start: "top 85%" },
+    opacity: 1,
+    scale: 0.9,
+    stagger: 0.2,
+    duration: 1,
+    ease: "back.out(1.7)",
+  });
+
+  // 4. Subtle Parallax for images
+  gsap.utils.toArray(".innov-img img").forEach((img) => {
+    gsap.to(img, {
+      yPercent: 10,
+      scrollTrigger: {
+        trigger: img,
+        start: "top bottom",
+        scrub: true,
+      },
+    });
+  });
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+// Future Computing Reveal
+gsap.from(".gsap-reveal-up", {
+  scrollTrigger: { trigger: ".computing-grid", start: "top 85%" },
+  y: 60, opacity: 1, stagger: 0.2, duration: 1, ease: "power3.out"
+});
+
+// Sustainable Scale Entrance
+gsap.from(".gsap-reveal-scale", {
+  scrollTrigger: { trigger: ".sustain-grid", start: "top 80%" },
+  scale: 0.9, opacity: 1, stagger: 0.3, duration: 1.2, ease: "expo.out"
+});
+
+// Startup Radar Pulse
+gsap.to(".radar-circle", {
+  scale: 1.5, opacity: 1, duration: 2, repeat: -1, ease: "sine.out"
+});
+
+// Startup List Stagger
+gsap.from(".gsap-reveal-list", {
+  scrollTrigger: { trigger: ".startup-list", start: "top 90%" },
+  x: -50, opacity: 1, stagger: 0.2, duration: 0.8, ease: "power2.out"
+});
+</script>

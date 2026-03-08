@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Technology</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./contact.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily News Technologies</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index2.html">Home 2</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./service.html">Services</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="./dashboard.html">Dashboard</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index2.html">Home 2</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./about.html">About</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./service.html">Services</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./blog.html">Blog</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./contact.html">Contact Us</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="350">
+          <a href="./dashboard.html">Dashboard</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="400">
+          <a href="./login.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <section class="contact-hero">
+      <div class="hero-noise"></div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="hub-badge">Secure Channel</span>
+          <h1 class="gsap-title">
+            Get in Touch <br /><span class="text-red">With Us</span>
+          </h1>
+          <p class="gsap-subtext">
+            We’re here to answer your questions and hear your feedback. Our
+            specialized communications team typically responds within 2 business
+            hours for high-priority technology ensuring that your data-driven
+            projects never lose momentum. exploring a strategic partnership in
+            digital healthcare, or providing editorial feedback on our latest
+            intelligence reports.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-main">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="form-wrapper gsap-reveal-left">
+            <form id="contactForm" class="tech-form">
+              <div class="input-group">
+                <label>Full Name / Lead Investigator</label>
+                <input type="text" placeholder="Dr. Julian Vane" required />
+              </div>
+              <div class="input-group">
+                <label>Organization / Press Email</label>
+                <input
+                  type="email"
+                  placeholder="vane@medtech-labs.com"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label>Intelligence Inquiry</label>
+                <select>
+                  <option>Data Licensing & API Access</option>
+                  <option>Medical Device Performance Specs</option>
+                  <option>Software Security Vulnerability Report</option>
+                  <option>Editorial Interview Request</option>
+                  <option>Clinical Trial Analysis Partnership</option>
+                </select>
+              </div>
+              <div class="input-group">
+                <label>Briefing Details</label>
+                <textarea
+                  rows="5"
+                  placeholder="Outline your technical requirements or press inquiry here..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-submit">
+                Transmit Data Packet <span>→</span>
+              </button>
+            </form>
+          </div>
+
+          <div class="info-sidebar gsap-reveal-right">
+            <div class="info-card">
+              <h2 class="section-label">Intelligence Bureau</h2>
+              <p>
+                Building 7, Innovation Square<br />Biomedical Park, San
+                Francisco, CA 94103
+              </p>
+            </div>
+
+            <div class="info-card">
+              <h2 class="section-label">Encrypted Channels</h2>
+              <p>Data Desk: +1 (800) TECH-INTEL</p>
+              <p>Medical Research: +1 (800) MED-DEVICES</p>
+              <p>Secure Fax: +1 (800) 444-FILES</p>
+            </div>
+
+            <div class="contact-visual">
+              <img
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop"
+                alt="High-Tech Microchips and Circuits"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="container">
+        <h2 class="section-header gsap-reveal">
+          Frequently Asked <span class="text-red">Questions</span>
+        </h2>
+
+        <div class="faq-accordion">
+          <div class="faq-item gsap-reveal-up">
+            <div class="faq-question">
+              <h3>How do you verify the accuracy of your technology news?</h3>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>
+                We utilize a triple-layer verification protocol involving
+                primary source cross-referencing, metadata analysis of digital
+                assets, and secondary peer review by subject matter experts in
+                our Intelligence Bureau.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item gsap-reveal-up">
+            <div class="faq-question">
+              <h3>Are the medical device insights compliant with HIPAA?</h3>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes. All clinical data analysis and hardware specifications
+                provided on our platform are stripped of PII (Personally
+                Identifiable Information) and strictly adhere to global HIPAA
+                and GDPR compliance standards.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item gsap-reveal-up">
+            <div class="faq-question">
+              <h3>Can businesses request a deep-packet software analysis?</h3>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Absolutely. Our Software Analysis division offers on-demand
+                stress testing and security auditing. You can initiate a request
+                through our Contact Hub under the "Technical Consulting"
+                category.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="social-section">
+      <div class="container">
+        <div class="social-grid">
+          <div class="social-text gsap-reveal-left">
+            <h2 class="section-label">Stay Synced</h2>
+            <h3>
+              Join our Global <br /><span class="text-red"
+                >Intelligence Network</span
+              >
+            </h3>
+            <p>
+              Follow our encrypted channels for real-time alerts on medical
+              breakthroughs and software security vulnerabilities.
+            </p>
+          </div>
+
+          <div class="social-links gsap-reveal-right">
+            <a href="./error.html" class="social-card">
+              <div class="social-img">
+                <img
+                  src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=300&auto=format&fit=crop"
+                  alt="Social Feed"
+                />
+              </div>
+              <span class="platform">LinkedIn</span>
+            </a>
+            <a href="./error.html" class="social-card">
+              <div class="social-img">
+                <img
+                  src="https://images.unsplash.com/photo-1611606063065-ee7946f0787a?q=80&w=300&auto=format&fit=crop"
+                  alt="Social Feed"
+                />
+              </div>
+              <span class="platform">X / Twitter</span>
+            </a>
+            <a href="./error.html" class="social-card">
+              <div class="social-img">
+                <img
+                  src="https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=300&auto=format&fit=crop"
+                  alt="Social Feed"
+                />
+              </div>
+              <span class="platform">GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./about.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./contact.html">Contact Us</a>
+          <a href="./dashboard.html">Dashboard</a>
+          <a href="./login.html">Login</a>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./about.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./blog.html">Blog</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology news, trends, and
+            innovations.
+          </p>
+          <form action="./error.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Updates & Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error.html">Privacy Policy</a>
+          <a href="./error.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  const tl = gsap.timeline();
+
+  // Hero Entry
+  tl.from(".gsap-title", {
+    y: 50,
+    opacity: 1,
+    duration: 1,
+    ease: "power4.out",
+  }).from(
+    ".hub-badge, .gsap-subtext",
+    {
+      opacity: 1,
+      y: 20,
+      stagger: 0.2,
+      duration: 0.8,
+    },
+    "-=0.5",
+  );
+
+  // Form & Sidebar Side-by-Side Reveal
+  gsap.from(".gsap-reveal-left", {
+    scrollTrigger: {
+      trigger: ".contact-grid",
+      start: "top 80%",
+    },
+    x: -100,
+    opacity: 1,
+    duration: 1.2,
+    ease: "expo.out",
+  });
+
+  gsap.from(".gsap-reveal-right", {
+    scrollTrigger: {
+      trigger: ".contact-grid",
+      start: "top 80%",
+    },
+    x: 100,
+    opacity: 1,
+    duration: 1.2,
+    ease: "expo.out",
+  });
+
+  // Subtle "Breathing" noise effect for background
+  gsap.to(".hero-noise", {
+    opacity: 1,
+    duration: 2,
+    repeat: -1,
+    yoyo: true,
+  });
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+// 1. FAQ Accordion Logic (Vanilla JS)
+document.querySelectorAll('.faq-question').forEach(question => {
+  question.addEventListener('click', () => {
+    const item = question.parentElement;
+    item.classList.toggle('active');
+  });
+});
+
+// 2. GSAP Entrance Animations
+const revealTl = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".faq-section",
+    start: "top 80%"
+  }
+});
+
+revealTl.from(".section-header", {
+  y: 30,
+  opacity: 1,
+  duration: 1
+})
+.from(".faq-item", {
+  opacity: 1,
+  y: 20,
+  stagger: 0.15,
+  duration: 0.8
+}, "-=0.5");
+
+// 3. Social Grid Reveal
+gsap.from(".gsap-reveal-left", {
+  scrollTrigger: {
+    trigger: ".social-section",
+    start: "top 85%"
+  },
+  opacity: 1,
+  duration: 1.2,
+  ease: "power3.out"
+});
+
+gsap.from(".social-card", {
+  scrollTrigger: {
+    trigger: ".social-links",
+    start: "top 85%"
+  },
+  opacity: 1,
+  stagger: 0.2,
+  duration: 1,
+  ease: "back.out(1.7)"
+});
+</script>

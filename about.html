@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Technology</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./about.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily News Technologies</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index2.html">Home 2</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./service.html">Services</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="./dashboard.html">Dashboard</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index2.html">Home 2</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./about.html">About</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./service.html">Services</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./blog.html">Blog</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./contact.html">Contact Us</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="350">
+          <a href="./dashboard.html">Dashboard</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="400">
+          <a href="./login.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    
+      <section class="news-hero">
+        <div class="container">
+          <div class="hero-text-content">
+            <div class="news-tag">
+              <span class="live-dot"></span> Established 2020
+            </div>
+            <h1>
+              The Benchmark of <br />
+              <span class="highlight">Tech Journalism</span>
+            </h1>
+            <p class="hero-subtitle">
+              From silicon breakthroughs to the global software revolution, we
+              deliver the investigative reporting and expert analysis that
+              define the modern digital era.
+            </p>
+            <div class="hero-actions">
+              <a href="#mission" class="btn-cta">Our Editorial Standards</a>
+              <span class="trending-text">
+                Integrity: <strong>Verified Sources Only</strong>
+              </span>
+            </div>
+          </div>
+
+          <div class="hero-visual-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1200"
+              alt="Cybersecurity and Data Technology"
+              class="hero-img"
+            />
+            <div class="stats-overlay">
+              <div class="stat-item">
+                <span class="stat-num">24/7</span>
+                <span class="stat-label">Global News Cycle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+    <!-- Mission / Vision -->
+    <section id="mission" class="mission-vision section-block">
+      <div class="container">
+        <div class="mission">
+          <h2 style="color: darkred">Our Mission</h2>
+          <p>
+            To decode the complexities of the digital frontier, empowering our
+            global audience with rigorous, investigative technology journalism
+            that informs decision-making and sparks innovation.
+          </p>
+        </div>
+        <div class="vision">
+          <h2 style="color: darkred">Our Vision</h2>
+          <p>
+            To define the future of media by becoming the most trusted bridge
+            between breakthrough engineering and the people who use it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="history section-block">
+      <div class="container">
+        <h2 style="color: darkred">The Evolution of Our Platform</h2>
+        <p>
+          What began in 2020 as a specialized research blog has scaled into a
+          formidable news powerhouse. Our trajectory has been defined by a
+          commitment to technical accuracy and a passion for the hardware and
+          software that drive the modern world.
+        </p>
+      </div>
+    </section>
+
+    <section class="team section-block">
+      <div class="container">
+        <h2
+          style="
+            text-align: center;
+            margin-bottom: 40px;
+            width: 100%;
+            color: darkred;
+          "
+        >
+          The Minds Behind the News
+        </h2>
+        <div class="team-grid">
+          <article class="team-member">
+            <img
+              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80"
+              alt="Technical Director"
+              style="border-bottom: 3px solid darkred"
+            />
+            <h3>Marcus Sterling</h3>
+            <p style="color: darkred; font-weight: bold">Editor-in-Chief</p>
+          </article>
+          <article class="team-member">
+            <img
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80"
+              alt="Senior Technology Analyst"
+              style="border-bottom: 3px solid darkred"
+            />
+            <h3>Elena Vance</h3>
+            <p style="color: darkred; font-weight: bold">
+              Senior Systems Analyst
+            </p>
+          </article>
+          <article class="team-member">
+            <img
+              src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80"
+              alt="Hardware Correspondent"
+              style="border-bottom: 3px solid darkred"
+            />
+            <h3>Julian Thorne</h3>
+            <p style="color: darkred; font-weight: bold">Hardware Lead</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="values section-block">
+      <div class="container">
+        <h2 class="reveal-text">Core Principles</h2>
+        <div class="values-grid">
+          <div class="value-card">
+            <span class="value-number">01</span>
+            <h3>Integrity</h3>
+            <p>
+              Providing verifiable tech reporting with a commitment to zero bias
+              and complete transparency.
+            </p>
+          </div>
+          <div class="value-card">
+            <span class="value-number">02</span>
+            <h3>Innovation</h3>
+            <p>
+              Utilizing next-gen storytelling tools to break down complex
+              medical and technical breakthroughs.
+            </p>
+          </div>
+          <div class="value-card">
+            <span class="value-number">03</span>
+            <h3>Accuracy</h3>
+            <p>
+              Every spec, every clinical trial, and every line of code is
+              fact-checked by industry experts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="awards section-block">
+      <div
+        class="awards-parallax-bg"
+        style="
+          background-image: url(&quot;https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&quot;);
+        "
+      ></div>
+      <div class="container">
+        <div class="awards-content">
+          <h2 class="reveal-text">Industry Recognition</h2>
+          <p>
+            Recognized for excellence in technical communication and digital
+            journalism across the medical and tech sectors.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="careers section-block">
+      <div class="container careers-flex">
+        <div class="careers-image">
+          <img
+            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop"
+            alt="Lab tech"
+            class="img-reveal"
+          />
+        </div>
+        <div class="careers-text">
+          <h2 class="reveal-text">Join the Lab</h2>
+          <p>
+            We’re hiring writers and analysts who live at the intersection of
+            healthcare and hardware. Help us define the future of news.
+          </p>
+          <a href="./contact.html" class="btn-red">View Open Positions</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial-section">
+      <div class="container">
+        <h2>Industry Intel</h2>
+
+        <div class="swiper testimonial-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide testimonial-card">
+              <div class="quote-icon">“</div>
+              <p class="testimonial-text">
+                The level of analysis in their AI section provided crucial data
+                for our Q4 research project. They are ahead of the curve.
+              </p>
+              <div class="client-info">
+                <img
+                  src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=300&auto=format&fit=crop"
+                  alt="Dr. Evelyn Reed"
+                  class="client-avatar"
+                />
+                <div class="client-details">
+                  <h4>Dr. Evelyn Reed</h4>
+                  <p>Principal Data Scientist, Quantum Dynamics</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide testimonial-card">
+              <div class="quote-icon">“</div>
+              <p class="testimonial-text">
+                Their reporting on the semiconductor shortage was the most
+                detailed we found outside of specialized medical labs.
+              </p>
+              <div class="client-info">
+                <img
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=300&auto=format&fit=crop"
+                  alt="Kenji Tanaka"
+                  class="client-avatar"
+                />
+                <div class="client-details">
+                  <h4>Kenji Tanaka</h4>
+                  <p>Managing Editor, TechBeat International</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide testimonial-card">
+              <div class="quote-icon">“</div>
+              <p class="testimonial-text">
+                Their deep dive into spatial computing reshaped our development
+                roadmap. This isn't just news; it's industry insight.
+              </p>
+              <div class="client-info">
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&auto=format&fit=crop"
+                  alt="Sarah Chen"
+                  class="client-avatar"
+                />
+                <div class="client-details">
+                  <h4>Sarah Chen</h4>
+                  <p>Lead Developer, Spatial Reality Labs</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide testimonial-card">
+              <div class="quote-icon">“</div>
+              <p class="testimonial-text">
+                The breakdown of the recent network exploits was the best
+                technical journalism I’ve read this year. Highly accurate.
+              </p>
+              <div class="client-info">
+                <img
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&auto=format&fit=crop"
+                  alt="Marcus Thompson"
+                  class="client-avatar"
+                />
+                <div class="client-details">
+                  <h4>Marcus Thompson</h4>
+                  <p>Cybersecurity Analyst, SecureNet Global</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide testimonial-card">
+              <div class="quote-icon">“</div>
+              <p class="testimonial-text">
+                When our investors asked about the next wave of green
+                technology, I pointed directly to their coverage. Spot on.
+              </p>
+              <div class="client-info">
+                <img
+                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=300&auto=format&fit=crop"
+                  alt="Priya Patel"
+                  class="client-avatar"
+                />
+                <div class="client-details">
+                  <h4>Priya Patel</h4>
+                  <p>Product Manager, EcoTech Solutions</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide testimonial-card">
+              <div class="quote-icon">“</div>
+              <p class="testimonial-text">
+                Their reporting successfully bridges the gap between hardware
+                and healthcare. essential reading for modern researchers.
+              </p>
+              <div class="client-info">
+                <img
+                  src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=300&auto=format&fit=crop"
+                  alt="Alex Ivanov"
+                  class="client-avatar"
+                />
+                <div class="client-details">
+                  <h4>Alex Ivanov</h4>
+                  <p>Biotech Researcher, OmniLife Sciences</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./about.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./contact.html">Contact Us</a>
+          <a href="./dashboard.html">Dashboard</a>
+          <a href="./login.html">Login</a>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./about.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./blog.html">Blog</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology news, trends, and
+            innovations.
+          </p>
+          <form action="./error.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Updates & Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error.html">Privacy Policy</a>
+          <a href="./error.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./script.js"></script>
+<script src="./about.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./about.js"></script>
+
+<!-- Header Scrolled -->
+
+
+<script>
+  
+// Testimonial 
+
+// A. Initialize Swiper JS
+const swiper = new Swiper('.testimonial-swiper', {
+  // --- Core Parameters ---
+  slidesPerView: 1, // Start on mobile
+  spaceBetween: 30,
+  loop: true, // Continual loop
+  grabCursor: true, // Visual cue for users
+
+  // --- Autoplay ---
+  autoplay: {
+    delay: 4000, // Show each slide for 4 seconds
+    disableOnInteraction: false, // Continue autoplay after interaction
+  },
+
+  // --- Swiper Effects ---
+  effect: 'coverflow', // Adds depth
+  coverflowEffect: {
+    rotate: 10,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: false,
+  },
+
+  // --- Pagination Dots ---
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // --- Responsive Breakpoints ---
+  breakpoints: {
+    // When window width is >= 768px
+    768: {
+      slidesPerView: 2,
+    },
+    // When window width is >= 1024px (Desktop)
+    1024: {
+      slidesPerView: 3,
+    }
+  }
+});
+
+
+// B. Initialize GSAP ScrollTrigger Animations
+gsap.registerPlugin(ScrollTrigger);
+
+// 1. Animate the Headline
+gsap.to(".testimonial-section h2", {
+  scrollTrigger: {
+    trigger: ".testimonial-section h2",
+    start: "top 85%",
+  },
+  x: 0,
+  opacity: 1,
+  duration: 1,
+  ease: "power4.out"
+});
+
+// 2. Staggered Reveal of the Visible Swiper Cards
+gsap.to(".testimonial-card", {
+  scrollTrigger: {
+    trigger: ".testimonial-swiper",
+    start: "top 80%",
+  },
+  y: 0,
+  opacity: 1,
+  stagger: 0.2, // cards enter sequentially
+  duration: 0.8,
+  ease: "power2.out"
+});
+</script>

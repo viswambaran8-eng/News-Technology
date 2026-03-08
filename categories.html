@@ -1,0 +1,725 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Technology</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./categories.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily News Technologies</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index2.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index2.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index.html">Home 1</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./categories.html">Categories</a></li>
+            <li><a href="./latest-news.html">Latest News</a></li>
+            <li><a href="./tech-reviews.html">Tech Reviews</a></li>
+            <li><a href="./innovations.html">Innovations</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login2.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index2.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index.html">Home 1</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./categories.html">Categories</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./latest-news.html">Latest News</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./tech-reviews.html">Tech Reviews</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./innovations.html">Innovations</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="350">
+          <a href="./login2.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <section class="categories-hero">
+      <div class="tech-grid-overlay"></div>
+
+      <div class="container relative z-5">
+        <div class="hero-breadcrumb gsap-reveal">
+          <a href="index.html">Home</a> /
+          <span class="text-red">Intelligence Hub</span>
+        </div>
+
+        <div class="hero-content">
+          <h1 class="gsap-title">
+            Information <br />
+            <span class="glitch-text" data-text="Architecture"
+              >Architecture</span
+            >
+          </h1>
+
+          <p class="hero-subtitle gsap-fade">
+            Navigate through our encrypted news sectors. From neural-linked
+            medical devices to sovereign AI infrastructure, select a frequency
+            to begin.
+          </p>
+
+          <div class="category-pills">
+            <span class="pill gsap-pill">#Artificial_Intelligence</span>
+            <span class="pill gsap-pill">#Medical_Hardware</span>
+            <span class="pill gsap-pill">#Cyber_Security</span>
+            <span class="pill gsap-pill">#Quantum_Computing</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator gsap-fade">
+        <span class="line"></span>
+        <span class="txt">DECRYPTING SECTORS</span>
+      </div>
+    </section>
+
+    <section class="featured-categories-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-reveal-header">
+            Featured <span class="text-red">Sectors</span>
+          </h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="category-grid">
+          <div class="category-card gsap-reveal-card">
+            <div class="card-img">
+              <img
+                src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop"
+                alt="Artificial Intelligence"
+              />
+            </div>
+            <div class="card-content">
+              <div class="card-meta">SECTOR_01</div>
+              <h3>Artificial Intelligence</h3>
+              <p>
+                Analyzing the shift from generative tools to autonomous neural
+                reasoning in medical infrastructure.
+              </p>
+              <a href="./error2.html" class="btn-explore"
+                >Explore Sector <span class="arrow">→</span></a
+              >
+            </div>
+          </div>
+
+          <div class="category-card gsap-reveal-card">
+            <div class="card-img">
+              <img
+                src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?q=80&w=2001&auto=format&fit=crop"
+                alt="Gadgets & Devices"
+              />
+            </div>
+            <div class="card-content">
+              <div class="card-meta">SECTOR_02</div>
+              <h3>Gadgets & Devices</h3>
+              <p>
+                Real-time benchmarks for 2026 wearable hardware and
+                bio-synchronization tools.
+              </p>
+              <a href="./error2.html" class="btn-explore"
+                >Explore Sector <span class="arrow">→</span></a
+              >
+            </div>
+          </div>
+
+          <div class="category-card gsap-reveal-card">
+            <div class="card-img">
+              <img
+                src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop"
+                alt="Cybersecurity"
+              />
+            </div>
+            <div class="card-content">
+              <div class="card-meta">SECTOR_03</div>
+              <h3>Cybersecurity</h3>
+              <p>
+                Updates on quantum-resistant encryption and global data
+                sovereignty protocols.
+              </p>
+              <a href="./error2.html" class="btn-explore"
+                >Explore Sector <span class="arrow">→</span></a
+              >
+            </div>
+          </div>
+
+          <div class="category-card gsap-reveal-card">
+            <div class="card-img">
+              <img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop"
+                alt="Software Development"
+              />
+            </div>
+            <div class="card-content">
+              <div class="card-meta">SECTOR_04</div>
+              <h3>Software Dev</h3>
+              <p>
+                Deep dives into kernel-level architecture and decentralized
+                application networks.
+              </p>
+              <a href="./error2.html" class="btn-explore"
+                >Explore Sector <span class="arrow">→</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular-topics-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-reveal-pop">
+            Most Popular <span class="text-red">Topics</span>
+          </h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="popular-grid">
+          <div class="pop-topic gsap-pop-card">
+            <span class="pop-count">01</span>
+            <h4>AI & Machine Learning</h4>
+            <div class="pop-line"></div>
+          </div>
+          <div class="pop-topic gsap-pop-card">
+            <span class="pop-count">02</span>
+            <h4>Mobile Technology</h4>
+            <div class="pop-line"></div>
+          </div>
+          <div class="pop-topic gsap-pop-card">
+            <span class="pop-count">03</span>
+            <h4>Cloud Computing</h4>
+            <div class="pop-line"></div>
+          </div>
+          <div class="pop-topic gsap-pop-card">
+            <span class="pop-count">04</span>
+            <h4>Blockchain</h4>
+            <div class="pop-line"></div>
+          </div>
+          <div class="pop-topic gsap-pop-card">
+            <span class="pop-count">05</span>
+            <h4>Gaming</h4>
+            <div class="pop-line"></div>
+          </div>
+          <div class="pop-topic gsap-pop-card">
+            <span class="pop-count">06</span>
+            <h4>Space Technology</h4>
+            <div class="pop-line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="category-news-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-reveal-latest">
+            Latest News by <span class="text-red">Category</span>
+          </h2>
+        </div>
+
+        <div class="category-tabs-container">
+          <div class="cat-news-block gsap-news-stagger">
+            <div class="cat-block-header">
+              <h3>Artificial Intelligence</h3>
+              <a href="./error2.html" class="view-all">View All Intelligence</a>
+            </div>
+            <div class="cat-article-grid">
+              <article class="mini-article">
+                <img
+                  src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=400"
+                  alt="AI"
+                />
+                <div class="mini-info">
+                  <h5>Neural Architectures in 2026</h5>
+                  <p>
+                    Exploring the new silicon kernels driving autonomous
+                    hospitals.
+                  </p>
+                </div>
+              </article>
+              <article class="mini-article">
+                <img
+                  src="https://images.unsplash.com/photo-1555255707-c07966088b7b?q=80&w=400"
+                  alt="Robotics"
+                />
+                <div class="mini-info">
+                  <h5>Agentic Workflow Integration</h5>
+                  <p>How LLMs are now managing robotic surgery protocols.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="cat-news-block gsap-news-stagger">
+            <div class="cat-block-header">
+              <h3>Cybersecurity</h3>
+              <a href="./error2.html" class="view-all">View All Security</a>
+            </div>
+            <div class="cat-article-grid">
+              <article class="mini-article">
+                <img
+                  src="https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=400"
+                  alt="Security"
+                />
+                <div class="mini-info">
+                  <h5>Post-Quantum Encryption</h5>
+                  <p>
+                    The first medical devices to receive quantum-proof firmware
+                    updates.
+                  </p>
+                </div>
+              </article>
+              <article class="mini-article">
+                <img
+                  src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=400"
+                  alt="Network"
+                />
+                <div class="mini-info">
+                  <h5>Zero-Trust Healthcare</h5>
+                  <p>
+                    Preventing lateral movement in autonomous news networks.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="editors-picks-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gsap-reveal-header">
+            Editor's <span class="text-red">Picks</span>
+          </h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="picks-grid">
+          <div class="pick-main gsap-pick-item">
+            <div class="pick-overlay"></div>
+            <img
+              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop"
+              alt="Core Tech"
+            />
+            <div class="pick-content">
+              <span class="pick-tag">Top Intelligence</span>
+              <h3>
+                The 2026 Sovereign Silicon Report: Why National AI Matters.
+              </h3>
+              <p>
+                An exclusive deep dive into the infrastructure shifts powering
+                global data independence.
+              </p>
+              <a href="./error2.html" class="btn-read">Read Full Brief →</a>
+            </div>
+          </div>
+
+          <div class="pick-side">
+            <div class="side-item gsap-pick-item">
+              <div class="side-img">
+                <img
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=400"
+                  alt="Med Tech"
+                />
+              </div>
+              <div class="side-text">
+                <span class="pick-tag">Medical</span>
+                <h4>Neural Interface Safety Protocols</h4>
+              </div>
+            </div>
+            <div class="side-item gsap-pick-item">
+              <div class="side-img">
+                <img
+                  src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=400"
+                  alt="Cyber"
+                />
+              </div>
+              <div class="side-text">
+                <span class="pick-tag">Security</span>
+                <h4>The Rise of the Zero-Day Guardian</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trending-tags-section">
+      <div class="container">
+        <div class="trending-box">
+          <div class="tag-header">
+            <span class="pulse-icon"></span>
+            <h3>Trending Topics in <span class="text-red">Technology</span></h3>
+          </div>
+
+          <div class="tag-cloud">
+            <a href="./error2.html" class="gsap-tag">#AI_Revolution</a>
+            <a href="./error2.html" class="gsap-tag">#Bio_Sync</a>
+            <a href="./error2.html" class="gsap-tag">#SpaceX_Hub</a>
+            <a href="./error2.html" class="gsap-tag">#Quantum_Leap</a>
+            <a href="./error2.html" class="gsap-tag">#StartUp_Radar</a>
+            <a href="./error2.html" class="gsap-tag">#Robotics_Logic</a>
+            <a href="./error2.html" class="gsap-tag">#Smart_Infrastructure</a>
+            <a href="./error2.html" class="gsap-tag">#Cyber_Resilience</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index2.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./categories.html">Categories</a>
+          <a href="./latest-news.html">Latest News</a>
+          <a href="./tech-reviews.html">Tech Reviews</a>
+          <a href="./innovations.html">Innovations</a>
+          <a href="./login2.html">Login</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./categories.html">Categories</a>
+          <a href="./latest-news.html">Latest News</a>
+          <a href="./tech-reviews.html">Tech Reviews</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology news, trends, and
+            innovations.
+          </p>
+          <form action="./error2.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Updates & Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error2.html">Privacy Policy</a>
+          <a href="./error2.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  const catHeroTl = gsap.timeline();
+
+  // 1. Initial Reveal
+  catHeroTl
+    .from(".tech-grid-overlay", {
+      opacity: 1,
+      duration: 2,
+      ease: "power2.out",
+    })
+    .from(
+      ".gsap-title",
+      {
+        x: -100,
+        opacity: 1,
+        duration: 1.2,
+        ease: "expo.out",
+      },
+      "-=1.5",
+    )
+
+    // 2. Text Fade-In
+    .from(
+      ".gsap-fade",
+      {
+        y: 30,
+        opacity: 1,
+        stagger: 0.3,
+        duration: 1,
+      },
+      "-=0.8",
+    )
+
+    // 3. Staggered Pills (Pop-in Effect)
+    .from(
+      ".gsap-pill",
+      {
+        scale: 0.8,
+        opacity: 1,
+        stagger: 0.1,
+        duration: 0.6,
+        ease: "back.out(1.7)",
+      },
+      "-=0.5",
+    );
+
+  // Floating animation for the background grid
+  gsap.to(".tech-grid-overlay", {
+    backgroundPosition: "50px 50px",
+    duration: 10,
+    repeat: -1,
+    ease: "linear",
+  });
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  // 1. Reveal Section Header
+  gsap.from(".gsap-reveal-header", {
+    scrollTrigger: {
+      trigger: ".featured-categories-section",
+      start: "top 85%",
+    },
+    x: -50,
+    opacity: 1,
+    duration: 1,
+    ease: "power3.out",
+  });
+
+  // 2. Staggered Card Entrance
+  gsap.from(".gsap-reveal-card", {
+    scrollTrigger: {
+      trigger: ".category-grid",
+      start: "top 80%",
+    },
+    y: 60,
+    opacity: 1,
+    stagger: 0.2,
+    duration: 1.2,
+    ease: "expo.out",
+  });
+
+  // 3. Card Content Fade-up
+  gsap.utils.toArray(".category-card").forEach((card) => {
+    const content = card.querySelector(".card-content");
+
+    card.addEventListener("mouseenter", () => {
+      gsap.to(content, { y: -5, duration: 0.3, ease: "power2.out" });
+    });
+
+    card.addEventListener("mouseleave", () => {
+      gsap.to(content, { y: 0, duration: 0.3, ease: "power2.out" });
+    });
+  });
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  // 1. Popular Grid Entrance
+  gsap.from(".gsap-pop-card", {
+    scrollTrigger: {
+      trigger: ".popular-grid",
+      start: "top 85%",
+    },
+    opacity: 1,
+    y: 30,
+    stagger: 0.1,
+    duration: 0.8,
+    ease: "power2.out",
+  });
+
+  // 2. Category Section Entrance
+  gsap.utils.toArray(".gsap-news-stagger").forEach((section) => {
+    gsap.from(section, {
+      scrollTrigger: {
+        trigger: section,
+        start: "top 80%",
+      },
+      opacity: 1,
+      x: -30,
+      duration: 1,
+      ease: "expo.out",
+    });
+  });
+
+  // 3. Mini Article Slide-in
+  gsap.from(".mini-article", {
+    scrollTrigger: {
+      trigger: ".category-news-section",
+      start: "top 70%",
+    },
+    opacity: 1,
+    stagger: 0.2,
+    duration: 0.8,
+  });
+</script>
+
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+
+// Editor's Picks Reveal
+gsap.from(".gsap-pick-item", {
+  scrollTrigger: {
+    trigger: ".picks-grid",
+    start: "top 80%",
+  },
+  y: 60,
+  opacity: 1,
+  stagger: 0.3,
+  duration: 1.2,
+  ease: "power4.out"
+});
+
+// Trending Tags Kinetic Entrance
+gsap.from(".gsap-tag", {
+  scrollTrigger: {
+    trigger: ".tag-cloud",
+    start: "top 90%",
+  },
+  scale: 0.5,
+  opacity: 1,
+  stagger: {
+    each: 0.1,
+    from: "random"
+  },
+  duration: 0.8,
+  ease: "back.out(1.7)"
+});
+
+// Pulse animation for the "Trending" indicator
+gsap.to(".pulse-icon", {
+  opacity: 1,
+  duration: 0.8,
+  repeat: -1,
+  yoyo: true
+});
+</script>

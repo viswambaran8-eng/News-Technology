@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Technology</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./tech-reviews.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily News Technologies</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index2.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index2.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index.html">Home 1</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./categories.html">Categories</a></li>
+            <li><a href="./latest-news.html">Latest News</a></li>
+            <li><a href="./tech-reviews.html">Tech Reviews</a></li>
+            <li><a href="./innovations.html">Innovations</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login2.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index2.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index.html">Home 1</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./categories.html">Categories</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./latest-news.html">Latest News</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./tech-reviews.html">Tech Reviews</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./innovations.html">Innovations</a>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="350">
+          <a href="./login2.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <section class="reviews-hero">
+      <div class="reviews-grid-overlay"></div>
+      <div class="reviews-glow-spot"></div>
+
+      <div class="container relative z-10">
+        <div class="reviews-hero-flex">
+          <div class="hero-text-side">
+            <div class="hero-badge gsap-reveal-fade">
+              <span class="status-icon"></span> 2026 PERFORMANCE LABS
+            </div>
+            <h1 class="gsap-reveal-title">
+              Expert <span class="text-red">Reviews</span> on Latest Technology
+            </h1>
+            <p class="gsap-reveal-fade subtext">
+              Discover in-depth reviews, performance analysis, and expert
+              opinions on the newest gadgets. We stress-test the future so you
+              don't have to.
+            </p>
+
+            <div class="hero-stats-row gsap-reveal-fade">
+              <div class="stat-box">
+                <span class="stat-val">500+</span>
+                <span class="stat-label">Devices Tested</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-val">24/7</span>
+                <span class="stat-label">Lab Monitoring</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual-side gsap-reveal-visual">
+            <div class="visual-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1544117518-2b44c8ad2047?q=80&w=2070&auto=format&fit=crop"
+                alt="Smart Device Review"
+                class="main-review-img"
+              />
+              <div class="spec-tag spec-1">CORE_SYNC: STABLE</div>
+              <div class="spec-tag spec-2">LATENCY: 0.02ms</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll-bar gsap-reveal-fade">
+        <div class="scroll-container">
+          <!-- <span>SCROLL TO VIEW BENCHMARKS</span> -->
+          <div class="scroll-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-reviews-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="gsap-reveal-title">Featured <span class="text-red">Tech Reviews</span></h2>
+      <div class="header-line"></div>
+    </div>
+
+    <div class="featured-review-grid">
+      <article class="featured-card gsap-reveal-side">
+        <div class="feat-img">
+          <img src="https://images.unsplash.com/photo-1616348436168-de43ad0db179?q=80&w=2070" alt="Flagship Smartphone">
+          <div class="feat-rating">9.8</div>
+        </div>
+        <div class="feat-content">
+          <div class="stars">★★★★★</div>
+          <h3>Titanium Pro Max: The 2026 Camera King</h3>
+          <p>An in-depth look at the new neural-sensor architecture that redefines low-light mobile cinematography.</p>
+          <a href="#" class="btn-review">Read Full Review</a>
+        </div>
+      </article>
+
+      <article class="featured-card gsap-reveal-side">
+        <div class="feat-img">
+          <img src="https://images.unsplash.com/photo-1661961111184-11317b40adb2?q=80&w=2070" alt="Pro Laptop">
+          <div class="feat-rating">9.5</div>
+        </div>
+        <div class="feat-content">
+          <div class="stars">★★★★☆</div>
+          <h4>Zenith Carbon: Silicon Sovereignty</h4>
+          <p>Testing the first consumer laptop powered by domestic quantum-secure processing units.</p>
+          <a href="#" class="btn-review">Read Full Review</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="latest-reviews-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="gsap-reveal-title">Latest <span class="text-red">Product Reviews</span></h2>
+    </div>
+
+    <div class="latest-grid">
+      <div class="latest-card gsap-reveal-up">
+        <div class="latest-thumb">
+          <img src="https://images.unsplash.com/photo-1544117518-2b44c8ad2047?q=80&w=800" alt="Smart Device">
+        </div>
+        <div class="latest-info">
+          <div class="latest-stars">★★★★★</div>
+          <h4>Vision AR Glass</h4>
+          <p>The lightest augmented reality interface we've tested this year.</p>
+        </div>
+      </div>
+
+      <div class="latest-card gsap-reveal-up">
+        <div class="latest-thumb">
+          <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=800" alt="Headphones">
+        </div>
+        <div class="latest-info">
+          <div class="latest-stars">★★★★☆</div>
+          <h4>Neural Audio X</h4>
+          <p>Bone-conduction sound with integrated biometric monitoring.</p>
+        </div>
+      </div>
+
+      <div class="latest-card gsap-reveal-up">
+        <div class="latest-thumb">
+          <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc48?q=80&w=800" alt="Home Tech">
+        </div>
+        <div class="latest-info">
+          <div class="latest-stars">★★★★★</div>
+          <h4>Node Hub Pro</h4>
+          <p>Managing decentralized smart homes with local AI privacy.</p>
+        </div>
+      </div>
+      </div>
+  </div>
+</section>
+
+<section class="hardware-reviews-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="gsap-reveal-title">Laptop & <span class="text-red">PC Systems</span></h2>
+      <div class="header-line"></div>
+    </div>
+
+    <div class="hardware-grid">
+      <article class="hardware-card gsap-reveal-left">
+        <div class="hw-img">
+          <img src="https://images.unsplash.com/photo-1587614382346-4ec7063f9b2e?q=80&w=2070" alt="High-end PC">
+          <div class="bench-label">BENCHMARK_98%</div>
+        </div>
+        <div class="hw-content">
+          <span class="hw-category">Gaming Laptops</span>
+          <h3>Quantum Blade Pro (2026 Edition)</h3>
+          <p>Analyzing the liquid-cooled thermal architecture and the new 4nm silicon performance in sustained AI workloads.</p>
+          <div class="hw-specs">
+            <span>32GB RAM</span>
+            <span>RTX 6000 Series</span>
+          </div>
+          <a href="./error2.html" class="btn-check">Compare Performance</a>
+        </div>
+      </article>
+
+      <div class="hardware-list">
+        <div class="hw-item gsap-reveal-right">
+          <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=400" alt="Ultrabook">
+          <div class="hw-mini-text">
+            <h4>Zenith Air S3</h4>
+            <p>The first 20-hour battery life ultrabook without thermal throttling.</p>
+          </div>
+        </div>
+        <div class="hw-item gsap-reveal-right">
+          <img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=400" alt="Workstation">
+          <div class="hw-mini-text">
+            <h4>Titan Node Workstation</h4>
+            <p>A desktop built for localized LLM training and 8K rendering.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="iot-reviews-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="gsap-reveal-title">Smart Home <span class="text-red">& IoT</span></h2>
+    </div>
+
+    <div class="iot-grid">
+      <div class="iot-card gsap-reveal-up">
+        <div class="iot-visual">
+          <img src="https://images.unsplash.com/photo-1589492477829-5e65395b66cc?q=80&w=800" alt="Smart Speaker">
+        </div>
+        <h4>Echo-Sync Hub</h4>
+        <p>Decentralized voice control that works 100% offline for maximum privacy.</p>
+        <div class="rating-bar"><div class="fill" style="width: 90%;"></div></div>
+      </div>
+
+      <div class="iot-card gsap-reveal-up">
+        <div class="iot-visual">
+          <img src="https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=800" alt="Smart Lights">
+        </div>
+        <h4>Lumina Mesh Pro</h4>
+        <p>Smart lighting that syncs with your circadian rhythm and 2026 home protocols.</p>
+        <div class="rating-bar"><div class="fill" style="width: 85%;"></div></div>
+      </div>
+
+      <div class="iot-card gsap-reveal-up">
+        <div class="iot-visual">
+          <img src="https://images.unsplash.com/photo-1557597774-9d2739f85a76?q=80&w=800" alt="Security Camera">
+        </div>
+        <h4>Sentinal Cam 4K</h4>
+        <p>AI-driven perimeter detection with zero false alarms and encrypted storage.</p>
+        <div class="rating-bar"><div class="fill" style="width: 95%;"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index2.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./categories.html">Categories</a>
+          <a href="./latest-news.html">Latest News</a>
+          <a href="./tech-reviews.html">Tech Reviews</a>
+          <a href="./innovations.html">Innovations</a>
+          <a href="./login2.html">Login</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./categories.html">Categories</a>
+          <a href="./latest-news.html">Latest News</a>
+          <a href="./tech-reviews.html">Tech Reviews</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology news, trends, and
+            innovations.
+          </p>
+          <form action="./error2.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Updates & Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error2.html">Privacy Policy</a>
+          <a href="./error2.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  const reviewHeroTl = gsap.timeline();
+
+  // 1. Reveal Elements
+  reviewHeroTl
+    .from(".gsap-reveal-title", {
+      x: -50,
+      opacity: 1,
+      duration: 1.2,
+      ease: "expo.out",
+    })
+    .from(
+      ".gsap-reveal-fade",
+      {
+        y: -50,
+        opacity: 1,
+        stagger: 0.2,
+        duration: 1,
+        ease: "power3.out",
+      },
+      "-=0.8",
+    )
+
+    // 2. Visual Reveal (Zoom & Gray-to-Color)
+    .from(
+      ".gsap-reveal-visual",
+      {
+        scale: 0.9,
+        opacity: 1,
+        duration: 1.5,
+        ease: "power2.out",
+      },
+      "-=1.2",
+    );
+
+  // 3. Hover Interaction for Spec Tags
+  document.querySelectorAll(".spec-tag").forEach((tag) => {
+    gsap.to(tag, {
+      x: 10,
+      repeat: -1,
+      yoyo: true,
+      duration: 1.5,
+      ease: "sine.inOut",
+    });
+  });
+
+  // Subtle background shift on scroll
+  gsap.to(".reviews-grid-overlay", {
+    backgroundPosition: "40px 40px",
+    duration: 10,
+    repeat: -1,
+    ease: "linear",
+  });
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+// 1. Staggered Featured Reveal
+gsap.from(".gsap-reveal-side", {
+    scrollTrigger: {
+        trigger: ".featured-review-grid",
+        start: "top 80%",
+    },
+    x: (index) => index % 2 === 0 ? -100 : 100,
+    opacity: 1,
+    duration: 1.5,
+    ease: "expo.out"
+});
+
+// 2. Latest Grid Fade Up
+gsap.from(".gsap-reveal-up", {
+    scrollTrigger: {
+        trigger: ".latest-grid",
+        start: "top 85%",
+    },
+    y: 50,
+    opacity: 1,
+    stagger: 0.15,
+    duration: 1,
+    ease: "power3.out"
+});
+
+// 3. Score Animation
+document.querySelectorAll('.feat-rating').forEach(score => {
+    gsap.from(score, {
+        scrollTrigger: { trigger: score, start: "top 90%" },
+        scale: 0,
+        rotation: 45,
+        duration: 0.6,
+        ease: "back.out(1.7)"
+    });
+});
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+// Hardware Reveal
+gsap.from(".gsap-reveal-left", {
+    scrollTrigger: { trigger: ".hardware-grid", start: "top 80%" },
+    x: -80, opacity: 1, duration: 1.2, ease: "power4.out"
+});
+
+gsap.from(".gsap-reveal-right", {
+    scrollTrigger: { trigger: ".hardware-grid", start: "top 80%" },
+     opacity: 1, stagger: 0.2, duration: 1, ease: "power3.out"
+});
+
+// IoT Cards Reveal
+gsap.from(".gsap-reveal-up", {
+    scrollTrigger: { trigger: ".iot-grid", start: "top 85%" },
+    y: 50, opacity: 1, stagger: 0.15, duration: 0.8, ease: "power2.out"
+});
+
+// Fill Bar Animation
+gsap.utils.toArray('.fill').forEach(bar => {
+    gsap.from(bar, {
+        scrollTrigger: { trigger: bar, start: "top 90%" },
+        width: 0,
+        duration: 1.5,
+        ease: "expo.out"
+    });
+});
+</script>
