@@ -1447,3 +1447,13 @@ body.no-scroll {
     height: 200px;
   }
 }
+
+main {
+  margin-top: 13vh;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    margin-top: 5vh;
+  }
+}

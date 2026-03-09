@@ -1169,3 +1169,13 @@ body.no-scroll {
     grid-template-columns: 1fr;
   }
 }
+
+main {
+  margin-top: 13vh;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    margin-top: 5vh;
+  }
+}

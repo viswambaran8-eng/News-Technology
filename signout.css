@@ -786,12 +786,13 @@ body.no-scroll {
 /* ===== MAIN SECTION ===== */
 .Structure {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #0a0a0a;
   padding: 50px 0px;
+  margin-top: 80px;
 }
 
 /* ===== WRAPPER ===== */

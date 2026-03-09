@@ -1469,3 +1469,13 @@ section {
     padding: 20px;
   }
 }
+
+main {
+  margin-top: 13vh;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    margin-top: 5vh;
+  }
+}
