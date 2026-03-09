@@ -65,20 +65,20 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // header colour on scroll (same as index)
-  window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header2");
-    const mainSection = document.querySelector("main");
+//   window.addEventListener("scroll", function () {
+//     const header = document.querySelector(".header2");
+//     const mainSection = document.querySelector("main");
 
-    if (mainSection) {
-      const sectionBottom = mainSection.getBoundingClientRect().bottom;
-      if (sectionBottom <= 0) {
-        header.classList.add("scrolled");
-      } else {
-        header.classList.remove("scrolled");
-      }
-    }
-  });
-});
+//     if (mainSection) {
+//       const sectionBottom = mainSection.getBoundingClientRect().bottom;
+//       if (sectionBottom <= 0) {
+//         header.classList.add("scrolled");
+//       } else {
+//         header.classList.remove("scrolled");
+//       }
+//     }
+//   });
+// });
 
 // 
 

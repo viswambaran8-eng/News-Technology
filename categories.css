@@ -801,7 +801,7 @@ body.no-scroll {
   /* Cinematic News Tech Background from Unsplash */
   background-image:
     linear-gradient(rgba(5, 5, 5, 0.8), rgba(5, 5, 5, 0.8)),
-    url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop");
+    url("./Assets/satellite\ in\ space_11zon_11zon.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Optional: adds a parallax feel */

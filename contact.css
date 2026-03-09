@@ -953,6 +953,11 @@ section {
 .faq-section {
   border-bottom: 1px solid #1a1a1a;
 }
+
+.faq-section .container {
+  overflow: hidden;
+}
+
 .section-header {
   font-size: 3rem;
   margin-bottom: 60px;
